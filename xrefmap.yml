@@ -1,0 +1,2047 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SpotLib
+  name: SpotLib
+  href: api/SpotLib.html
+  commentId: N:SpotLib
+  fullName: SpotLib
+  nameWithType: SpotLib
+- uid: SpotLib.Antenna
+  name: Antenna
+  href: api/SpotLib.Antenna.html
+  commentId: T:SpotLib.Antenna
+  fullName: SpotLib.Antenna
+  nameWithType: Antenna
+- uid: SpotLib.Antenna.#ctor(System.UInt32,SpotLib.AntennaType)
+  name: Antenna(UInt32, AntennaType)
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna__ctor_System_UInt32_SpotLib_AntennaType_
+  commentId: M:SpotLib.Antenna.#ctor(System.UInt32,SpotLib.AntennaType)
+  fullName: SpotLib.Antenna.Antenna(System.UInt32, SpotLib.AntennaType)
+  nameWithType: Antenna.Antenna(UInt32, AntennaType)
+- uid: SpotLib.Antenna.#ctor*
+  name: Antenna
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna__ctor_
+  commentId: Overload:SpotLib.Antenna.#ctor
+  isSpec: "True"
+  fullName: SpotLib.Antenna.Antenna
+  nameWithType: Antenna.Antenna
+- uid: SpotLib.Antenna.IsConnected
+  name: IsConnected
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_IsConnected
+  commentId: P:SpotLib.Antenna.IsConnected
+  fullName: SpotLib.Antenna.IsConnected
+  nameWithType: Antenna.IsConnected
+- uid: SpotLib.Antenna.IsConnected*
+  name: IsConnected
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_IsConnected_
+  commentId: Overload:SpotLib.Antenna.IsConnected
+  isSpec: "True"
+  fullName: SpotLib.Antenna.IsConnected
+  nameWithType: Antenna.IsConnected
+- uid: SpotLib.Antenna.IsEnabled
+  name: IsEnabled
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_IsEnabled
+  commentId: P:SpotLib.Antenna.IsEnabled
+  fullName: SpotLib.Antenna.IsEnabled
+  nameWithType: Antenna.IsEnabled
+- uid: SpotLib.Antenna.IsEnabled*
+  name: IsEnabled
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_IsEnabled_
+  commentId: Overload:SpotLib.Antenna.IsEnabled
+  isSpec: "True"
+  fullName: SpotLib.Antenna.IsEnabled
+  nameWithType: Antenna.IsEnabled
+- uid: SpotLib.Antenna.Number
+  name: Number
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_Number
+  commentId: P:SpotLib.Antenna.Number
+  fullName: SpotLib.Antenna.Number
+  nameWithType: Antenna.Number
+- uid: SpotLib.Antenna.Number*
+  name: Number
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_Number_
+  commentId: Overload:SpotLib.Antenna.Number
+  isSpec: "True"
+  fullName: SpotLib.Antenna.Number
+  nameWithType: Antenna.Number
+- uid: SpotLib.Antenna.Type
+  name: Type
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_Type
+  commentId: P:SpotLib.Antenna.Type
+  fullName: SpotLib.Antenna.Type
+  nameWithType: Antenna.Type
+- uid: SpotLib.Antenna.Type*
+  name: Type
+  href: api/SpotLib.Antenna.html#SpotLib_Antenna_Type_
+  commentId: Overload:SpotLib.Antenna.Type
+  isSpec: "True"
+  fullName: SpotLib.Antenna.Type
+  nameWithType: Antenna.Type
+- uid: SpotLib.AntennaType
+  name: AntennaType
+  href: api/SpotLib.AntennaType.html
+  commentId: T:SpotLib.AntennaType
+  fullName: SpotLib.AntennaType
+  nameWithType: AntennaType
+- uid: SpotLib.AntennaType.Bluetooth
+  name: Bluetooth
+  href: api/SpotLib.AntennaType.html#SpotLib_AntennaType_Bluetooth
+  commentId: F:SpotLib.AntennaType.Bluetooth
+  fullName: SpotLib.AntennaType.Bluetooth
+  nameWithType: AntennaType.Bluetooth
+- uid: SpotLib.AntennaType.RFID
+  name: RFID
+  href: api/SpotLib.AntennaType.html#SpotLib_AntennaType_RFID
+  commentId: F:SpotLib.AntennaType.RFID
+  fullName: SpotLib.AntennaType.RFID
+  nameWithType: AntennaType.RFID
+- uid: SpotLib.API
+  name: API
+  href: api/SpotLib.API.html
+  commentId: T:SpotLib.API
+  fullName: SpotLib.API
+  nameWithType: API
+- uid: SpotLib.API.#ctor(System.Int32)
+  name: API(Int32)
+  href: api/SpotLib.API.html#SpotLib_API__ctor_System_Int32_
+  commentId: M:SpotLib.API.#ctor(System.Int32)
+  fullName: SpotLib.API.API(System.Int32)
+  nameWithType: API.API(Int32)
+- uid: SpotLib.API.#ctor(System.String,System.Int32)
+  name: API(String, Int32)
+  href: api/SpotLib.API.html#SpotLib_API__ctor_System_String_System_Int32_
+  commentId: M:SpotLib.API.#ctor(System.String,System.Int32)
+  fullName: SpotLib.API.API(System.String, System.Int32)
+  nameWithType: API.API(String, Int32)
+- uid: SpotLib.API.#ctor*
+  name: API
+  href: api/SpotLib.API.html#SpotLib_API__ctor_
+  commentId: Overload:SpotLib.API.#ctor
+  isSpec: "True"
+  fullName: SpotLib.API.API
+  nameWithType: API.API
+- uid: SpotLib.API.ChangeIpSettings(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
+  name: ChangeIpSettings(Int32, Boolean, String, String, String, String, String)
+  href: api/SpotLib.API.html#SpotLib_API_ChangeIpSettings_System_Int32_System_Boolean_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:SpotLib.API.ChangeIpSettings(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
+  fullName: SpotLib.API.ChangeIpSettings(System.Int32, System.Boolean, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: API.ChangeIpSettings(Int32, Boolean, String, String, String, String, String)
+- uid: SpotLib.API.ChangeIpSettings*
+  name: ChangeIpSettings
+  href: api/SpotLib.API.html#SpotLib_API_ChangeIpSettings_
+  commentId: Overload:SpotLib.API.ChangeIpSettings
+  isSpec: "True"
+  fullName: SpotLib.API.ChangeIpSettings
+  nameWithType: API.ChangeIpSettings
+- uid: SpotLib.API.ClearPresences(System.Int32)
+  name: ClearPresences(Int32)
+  href: api/SpotLib.API.html#SpotLib_API_ClearPresences_System_Int32_
+  commentId: M:SpotLib.API.ClearPresences(System.Int32)
+  fullName: SpotLib.API.ClearPresences(System.Int32)
+  nameWithType: API.ClearPresences(Int32)
+- uid: SpotLib.API.ClearPresences*
+  name: ClearPresences
+  href: api/SpotLib.API.html#SpotLib_API_ClearPresences_
+  commentId: Overload:SpotLib.API.ClearPresences
+  isSpec: "True"
+  fullName: SpotLib.API.ClearPresences
+  nameWithType: API.ClearPresences
+- uid: SpotLib.API.DeInit
+  name: DeInit()
+  href: api/SpotLib.API.html#SpotLib_API_DeInit
+  commentId: M:SpotLib.API.DeInit
+  fullName: SpotLib.API.DeInit()
+  nameWithType: API.DeInit()
+- uid: SpotLib.API.DeInit*
+  name: DeInit
+  href: api/SpotLib.API.html#SpotLib_API_DeInit_
+  commentId: Overload:SpotLib.API.DeInit
+  isSpec: "True"
+  fullName: SpotLib.API.DeInit
+  nameWithType: API.DeInit
+- uid: SpotLib.API.Finalize
+  name: Finalize()
+  href: api/SpotLib.API.html#SpotLib_API_Finalize
+  commentId: M:SpotLib.API.Finalize
+  fullName: SpotLib.API.Finalize()
+  nameWithType: API.Finalize()
+- uid: SpotLib.API.Finalize*
+  name: Finalize
+  href: api/SpotLib.API.html#SpotLib_API_Finalize_
+  commentId: Overload:SpotLib.API.Finalize
+  isSpec: "True"
+  fullName: SpotLib.API.Finalize
+  nameWithType: API.Finalize
+- uid: SpotLib.API.GetAntennaMaxSWR(System.Int32,System.UInt32@)
+  name: GetAntennaMaxSWR(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetAntennaMaxSWR_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetAntennaMaxSWR(System.Int32,System.UInt32@)
+  name.vb: GetAntennaMaxSWR(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetAntennaMaxSWR(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetAntennaMaxSWR(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetAntennaMaxSWR(Int32, out UInt32)
+  nameWithType.vb: API.GetAntennaMaxSWR(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetAntennaMaxSWR*
+  name: GetAntennaMaxSWR
+  href: api/SpotLib.API.html#SpotLib_API_GetAntennaMaxSWR_
+  commentId: Overload:SpotLib.API.GetAntennaMaxSWR
+  isSpec: "True"
+  fullName: SpotLib.API.GetAntennaMaxSWR
+  nameWithType: API.GetAntennaMaxSWR
+- uid: SpotLib.API.GetAntennaPresencesEnabledState(System.Int32,System.Boolean@)
+  name: GetAntennaPresencesEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetAntennaPresencesEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetAntennaPresencesEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetAntennaPresencesEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetAntennaPresencesEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetAntennaPresencesEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetAntennaPresencesEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetAntennaPresencesEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetAntennaPresencesEnabledState*
+  name: GetAntennaPresencesEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetAntennaPresencesEnabledState_
+  commentId: Overload:SpotLib.API.GetAntennaPresencesEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetAntennaPresencesEnabledState
+  nameWithType: API.GetAntennaPresencesEnabledState
+- uid: SpotLib.API.GetBluetoothEnabledState(System.Int32,System.Boolean@)
+  name: GetBluetoothEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetBluetoothEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetBluetoothEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetBluetoothEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetBluetoothEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetBluetoothEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetBluetoothEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetBluetoothEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetBluetoothEnabledState*
+  name: GetBluetoothEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetBluetoothEnabledState_
+  commentId: Overload:SpotLib.API.GetBluetoothEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetBluetoothEnabledState
+  nameWithType: API.GetBluetoothEnabledState
+- uid: SpotLib.API.GetBluetoothFilterThreshold(System.Int32,System.Int32@)
+  name: GetBluetoothFilterThreshold(Int32, out Int32)
+  href: api/SpotLib.API.html#SpotLib_API_GetBluetoothFilterThreshold_System_Int32_System_Int32__
+  commentId: M:SpotLib.API.GetBluetoothFilterThreshold(System.Int32,System.Int32@)
+  name.vb: GetBluetoothFilterThreshold(Int32, ByRef Int32)
+  fullName: SpotLib.API.GetBluetoothFilterThreshold(System.Int32, out System.Int32)
+  fullName.vb: SpotLib.API.GetBluetoothFilterThreshold(System.Int32, ByRef System.Int32)
+  nameWithType: API.GetBluetoothFilterThreshold(Int32, out Int32)
+  nameWithType.vb: API.GetBluetoothFilterThreshold(Int32, ByRef Int32)
+- uid: SpotLib.API.GetBluetoothFilterThreshold*
+  name: GetBluetoothFilterThreshold
+  href: api/SpotLib.API.html#SpotLib_API_GetBluetoothFilterThreshold_
+  commentId: Overload:SpotLib.API.GetBluetoothFilterThreshold
+  isSpec: "True"
+  fullName: SpotLib.API.GetBluetoothFilterThreshold
+  nameWithType: API.GetBluetoothFilterThreshold
+- uid: SpotLib.API.GetDHCPEnabledState(System.Int32,System.Boolean@)
+  name: GetDHCPEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetDHCPEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetDHCPEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetDHCPEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetDHCPEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetDHCPEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetDHCPEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetDHCPEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetDHCPEnabledState*
+  name: GetDHCPEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetDHCPEnabledState_
+  commentId: Overload:SpotLib.API.GetDHCPEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetDHCPEnabledState
+  nameWithType: API.GetDHCPEnabledState
+- uid: SpotLib.API.GetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32@)
+  name: GetFilterHysteresis(Int32, TechnologyType, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetFilterHysteresis_System_Int32_SpotLib_TechnologyType_System_UInt32__
+  commentId: M:SpotLib.API.GetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32@)
+  name.vb: GetFilterHysteresis(Int32, TechnologyType, ByRef UInt32)
+  fullName: SpotLib.API.GetFilterHysteresis(System.Int32, SpotLib.TechnologyType, out System.UInt32)
+  fullName.vb: SpotLib.API.GetFilterHysteresis(System.Int32, SpotLib.TechnologyType, ByRef System.UInt32)
+  nameWithType: API.GetFilterHysteresis(Int32, TechnologyType, out UInt32)
+  nameWithType.vb: API.GetFilterHysteresis(Int32, TechnologyType, ByRef UInt32)
+- uid: SpotLib.API.GetFilterHysteresis*
+  name: GetFilterHysteresis
+  href: api/SpotLib.API.html#SpotLib_API_GetFilterHysteresis_
+  commentId: Overload:SpotLib.API.GetFilterHysteresis
+  isSpec: "True"
+  fullName: SpotLib.API.GetFilterHysteresis
+  nameWithType: API.GetFilterHysteresis
+- uid: SpotLib.API.GetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32@)
+  name: GetFilterWindowSize(Int32, TechnologyType, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetFilterWindowSize_System_Int32_SpotLib_TechnologyType_System_UInt32__
+  commentId: M:SpotLib.API.GetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32@)
+  name.vb: GetFilterWindowSize(Int32, TechnologyType, ByRef UInt32)
+  fullName: SpotLib.API.GetFilterWindowSize(System.Int32, SpotLib.TechnologyType, out System.UInt32)
+  fullName.vb: SpotLib.API.GetFilterWindowSize(System.Int32, SpotLib.TechnologyType, ByRef System.UInt32)
+  nameWithType: API.GetFilterWindowSize(Int32, TechnologyType, out UInt32)
+  nameWithType.vb: API.GetFilterWindowSize(Int32, TechnologyType, ByRef UInt32)
+- uid: SpotLib.API.GetFilterWindowSize*
+  name: GetFilterWindowSize
+  href: api/SpotLib.API.html#SpotLib_API_GetFilterWindowSize_
+  commentId: Overload:SpotLib.API.GetFilterWindowSize
+  isSpec: "True"
+  fullName: SpotLib.API.GetFilterWindowSize
+  nameWithType: API.GetFilterWindowSize
+- uid: SpotLib.API.GetFirmwareUpdateEnabledState(System.Int32,System.Boolean@,System.UInt32@)
+  name: GetFirmwareUpdateEnabledState(Int32, out Boolean, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetFirmwareUpdateEnabledState_System_Int32_System_Boolean__System_UInt32__
+  commentId: M:SpotLib.API.GetFirmwareUpdateEnabledState(System.Int32,System.Boolean@,System.UInt32@)
+  name.vb: GetFirmwareUpdateEnabledState(Int32, ByRef Boolean, ByRef UInt32)
+  fullName: SpotLib.API.GetFirmwareUpdateEnabledState(System.Int32, out System.Boolean, out System.UInt32)
+  fullName.vb: SpotLib.API.GetFirmwareUpdateEnabledState(System.Int32, ByRef System.Boolean, ByRef System.UInt32)
+  nameWithType: API.GetFirmwareUpdateEnabledState(Int32, out Boolean, out UInt32)
+  nameWithType.vb: API.GetFirmwareUpdateEnabledState(Int32, ByRef Boolean, ByRef UInt32)
+- uid: SpotLib.API.GetFirmwareUpdateEnabledState*
+  name: GetFirmwareUpdateEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetFirmwareUpdateEnabledState_
+  commentId: Overload:SpotLib.API.GetFirmwareUpdateEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetFirmwareUpdateEnabledState
+  nameWithType: API.GetFirmwareUpdateEnabledState
+- uid: SpotLib.API.GetFirmwareVersion(System.Int32,System.String@)
+  name: GetFirmwareVersion(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetFirmwareVersion_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetFirmwareVersion(System.Int32,System.String@)
+  name.vb: GetFirmwareVersion(Int32, ByRef String)
+  fullName: SpotLib.API.GetFirmwareVersion(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetFirmwareVersion(System.Int32, ByRef System.String)
+  nameWithType: API.GetFirmwareVersion(Int32, out String)
+  nameWithType.vb: API.GetFirmwareVersion(Int32, ByRef String)
+- uid: SpotLib.API.GetFirmwareVersion*
+  name: GetFirmwareVersion
+  href: api/SpotLib.API.html#SpotLib_API_GetFirmwareVersion_
+  commentId: Overload:SpotLib.API.GetFirmwareVersion
+  isSpec: "True"
+  fullName: SpotLib.API.GetFirmwareVersion
+  nameWithType: API.GetFirmwareVersion
+- uid: SpotLib.API.GetGateway(System.Int32,System.String@)
+  name: GetGateway(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetGateway_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetGateway(System.Int32,System.String@)
+  name.vb: GetGateway(Int32, ByRef String)
+  fullName: SpotLib.API.GetGateway(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetGateway(System.Int32, ByRef System.String)
+  nameWithType: API.GetGateway(Int32, out String)
+  nameWithType.vb: API.GetGateway(Int32, ByRef String)
+- uid: SpotLib.API.GetGateway*
+  name: GetGateway
+  href: api/SpotLib.API.html#SpotLib_API_GetGateway_
+  commentId: Overload:SpotLib.API.GetGateway
+  isSpec: "True"
+  fullName: SpotLib.API.GetGateway
+  nameWithType: API.GetGateway
+- uid: SpotLib.API.GetHoldTime(System.Int32,System.UInt32@,System.Boolean@)
+  name: GetHoldTime(Int32, out UInt32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetHoldTime_System_Int32_System_UInt32__System_Boolean__
+  commentId: M:SpotLib.API.GetHoldTime(System.Int32,System.UInt32@,System.Boolean@)
+  name.vb: GetHoldTime(Int32, ByRef UInt32, ByRef Boolean)
+  fullName: SpotLib.API.GetHoldTime(System.Int32, out System.UInt32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetHoldTime(System.Int32, ByRef System.UInt32, ByRef System.Boolean)
+  nameWithType: API.GetHoldTime(Int32, out UInt32, out Boolean)
+  nameWithType.vb: API.GetHoldTime(Int32, ByRef UInt32, ByRef Boolean)
+- uid: SpotLib.API.GetHoldTime*
+  name: GetHoldTime
+  href: api/SpotLib.API.html#SpotLib_API_GetHoldTime_
+  commentId: Overload:SpotLib.API.GetHoldTime
+  isSpec: "True"
+  fullName: SpotLib.API.GetHoldTime
+  nameWithType: API.GetHoldTime
+- uid: SpotLib.API.GetIpAddress(System.Int32,System.String@)
+  name: GetIpAddress(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetIpAddress_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetIpAddress(System.Int32,System.String@)
+  name.vb: GetIpAddress(Int32, ByRef String)
+  fullName: SpotLib.API.GetIpAddress(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetIpAddress(System.Int32, ByRef System.String)
+  nameWithType: API.GetIpAddress(Int32, out String)
+  nameWithType.vb: API.GetIpAddress(Int32, ByRef String)
+- uid: SpotLib.API.GetIpAddress*
+  name: GetIpAddress
+  href: api/SpotLib.API.html#SpotLib_API_GetIpAddress_
+  commentId: Overload:SpotLib.API.GetIpAddress
+  isSpec: "True"
+  fullName: SpotLib.API.GetIpAddress
+  nameWithType: API.GetIpAddress
+- uid: SpotLib.API.GetIpSubnet(System.Int32,System.String@)
+  name: GetIpSubnet(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetIpSubnet_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetIpSubnet(System.Int32,System.String@)
+  name.vb: GetIpSubnet(Int32, ByRef String)
+  fullName: SpotLib.API.GetIpSubnet(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetIpSubnet(System.Int32, ByRef System.String)
+  nameWithType: API.GetIpSubnet(Int32, out String)
+  nameWithType.vb: API.GetIpSubnet(Int32, ByRef String)
+- uid: SpotLib.API.GetIpSubnet*
+  name: GetIpSubnet
+  href: api/SpotLib.API.html#SpotLib_API_GetIpSubnet_
+  commentId: Overload:SpotLib.API.GetIpSubnet
+  isSpec: "True"
+  fullName: SpotLib.API.GetIpSubnet
+  nameWithType: API.GetIpSubnet
+- uid: SpotLib.API.GetPresences(System.Int32,System.Collections.Generic.Dictionary{System.Int32,SpotLib.Presence}@)
+  name: GetPresences(Int32, out Dictionary<Int32, Presence>)
+  href: api/SpotLib.API.html#SpotLib_API_GetPresences_System_Int32_System_Collections_Generic_Dictionary_System_Int32_SpotLib_Presence___
+  commentId: M:SpotLib.API.GetPresences(System.Int32,System.Collections.Generic.Dictionary{System.Int32,SpotLib.Presence}@)
+  name.vb: GetPresences(Int32, ByRef Dictionary(Of Int32, Presence))
+  fullName: SpotLib.API.GetPresences(System.Int32, out System.Collections.Generic.Dictionary<System.Int32, SpotLib.Presence>)
+  fullName.vb: SpotLib.API.GetPresences(System.Int32, ByRef System.Collections.Generic.Dictionary(Of System.Int32, SpotLib.Presence))
+  nameWithType: API.GetPresences(Int32, out Dictionary<Int32, Presence>)
+  nameWithType.vb: API.GetPresences(Int32, ByRef Dictionary(Of Int32, Presence))
+- uid: SpotLib.API.GetPresences*
+  name: GetPresences
+  href: api/SpotLib.API.html#SpotLib_API_GetPresences_
+  commentId: Overload:SpotLib.API.GetPresences
+  isSpec: "True"
+  fullName: SpotLib.API.GetPresences
+  nameWithType: API.GetPresences
+- uid: SpotLib.API.GetPrimaryDNS(System.Int32,System.String@)
+  name: GetPrimaryDNS(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetPrimaryDNS_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetPrimaryDNS(System.Int32,System.String@)
+  name.vb: GetPrimaryDNS(Int32, ByRef String)
+  fullName: SpotLib.API.GetPrimaryDNS(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetPrimaryDNS(System.Int32, ByRef System.String)
+  nameWithType: API.GetPrimaryDNS(Int32, out String)
+  nameWithType.vb: API.GetPrimaryDNS(Int32, ByRef String)
+- uid: SpotLib.API.GetPrimaryDNS*
+  name: GetPrimaryDNS
+  href: api/SpotLib.API.html#SpotLib_API_GetPrimaryDNS_
+  commentId: Overload:SpotLib.API.GetPrimaryDNS
+  isSpec: "True"
+  fullName: SpotLib.API.GetPrimaryDNS
+  nameWithType: API.GetPrimaryDNS
+- uid: SpotLib.API.GetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32@)
+  name: GetProximityLevel(Int32, TechnologyType, ProximityType, out Int32)
+  href: api/SpotLib.API.html#SpotLib_API_GetProximityLevel_System_Int32_SpotLib_TechnologyType_SpotLib_ProximityType_System_Int32__
+  commentId: M:SpotLib.API.GetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32@)
+  name.vb: GetProximityLevel(Int32, TechnologyType, ProximityType, ByRef Int32)
+  fullName: SpotLib.API.GetProximityLevel(System.Int32, SpotLib.TechnologyType, SpotLib.ProximityType, out System.Int32)
+  fullName.vb: SpotLib.API.GetProximityLevel(System.Int32, SpotLib.TechnologyType, SpotLib.ProximityType, ByRef System.Int32)
+  nameWithType: API.GetProximityLevel(Int32, TechnologyType, ProximityType, out Int32)
+  nameWithType.vb: API.GetProximityLevel(Int32, TechnologyType, ProximityType, ByRef Int32)
+- uid: SpotLib.API.GetProximityLevel*
+  name: GetProximityLevel
+  href: api/SpotLib.API.html#SpotLib_API_GetProximityLevel_
+  commentId: Overload:SpotLib.API.GetProximityLevel
+  isSpec: "True"
+  fullName: SpotLib.API.GetProximityLevel
+  nameWithType: API.GetProximityLevel
+- uid: SpotLib.API.GetRawHitEventsEnabledState(System.Int32,System.Boolean@)
+  name: GetRawHitEventsEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRawHitEventsEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetRawHitEventsEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetRawHitEventsEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetRawHitEventsEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRawHitEventsEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetRawHitEventsEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetRawHitEventsEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetRawHitEventsEnabledState*
+  name: GetRawHitEventsEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetRawHitEventsEnabledState_
+  commentId: Overload:SpotLib.API.GetRawHitEventsEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRawHitEventsEnabledState
+  nameWithType: API.GetRawHitEventsEnabledState
+- uid: SpotLib.API.GetRfidAntennaConnectedState(System.Int32,System.UInt32,System.Boolean@)
+  name: GetRfidAntennaConnectedState(Int32, UInt32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaConnectedState_System_Int32_System_UInt32_System_Boolean__
+  commentId: M:SpotLib.API.GetRfidAntennaConnectedState(System.Int32,System.UInt32,System.Boolean@)
+  name.vb: GetRfidAntennaConnectedState(Int32, UInt32, ByRef Boolean)
+  fullName: SpotLib.API.GetRfidAntennaConnectedState(System.Int32, System.UInt32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRfidAntennaConnectedState(System.Int32, System.UInt32, ByRef System.Boolean)
+  nameWithType: API.GetRfidAntennaConnectedState(Int32, UInt32, out Boolean)
+  nameWithType.vb: API.GetRfidAntennaConnectedState(Int32, UInt32, ByRef Boolean)
+- uid: SpotLib.API.GetRfidAntennaConnectedState*
+  name: GetRfidAntennaConnectedState
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaConnectedState_
+  commentId: Overload:SpotLib.API.GetRfidAntennaConnectedState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidAntennaConnectedState
+  nameWithType: API.GetRfidAntennaConnectedState
+- uid: SpotLib.API.GetRfidAntennaDisableMask(System.Int32,System.UInt32@)
+  name: GetRfidAntennaDisableMask(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaDisableMask_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidAntennaDisableMask(System.Int32,System.UInt32@)
+  name.vb: GetRfidAntennaDisableMask(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidAntennaDisableMask(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidAntennaDisableMask(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidAntennaDisableMask(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidAntennaDisableMask(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidAntennaDisableMask*
+  name: GetRfidAntennaDisableMask
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaDisableMask_
+  commentId: Overload:SpotLib.API.GetRfidAntennaDisableMask
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidAntennaDisableMask
+  nameWithType: API.GetRfidAntennaDisableMask
+- uid: SpotLib.API.GetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean@)
+  name: GetRfidAntennaEnabledState(Int32, UInt32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaEnabledState_System_Int32_System_UInt32_System_Boolean__
+  commentId: M:SpotLib.API.GetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean@)
+  name.vb: GetRfidAntennaEnabledState(Int32, UInt32, ByRef Boolean)
+  fullName: SpotLib.API.GetRfidAntennaEnabledState(System.Int32, System.UInt32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRfidAntennaEnabledState(System.Int32, System.UInt32, ByRef System.Boolean)
+  nameWithType: API.GetRfidAntennaEnabledState(Int32, UInt32, out Boolean)
+  nameWithType.vb: API.GetRfidAntennaEnabledState(Int32, UInt32, ByRef Boolean)
+- uid: SpotLib.API.GetRfidAntennaEnabledState*
+  name: GetRfidAntennaEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaEnabledState_
+  commentId: Overload:SpotLib.API.GetRfidAntennaEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidAntennaEnabledState
+  nameWithType: API.GetRfidAntennaEnabledState
+- uid: SpotLib.API.GetRfidAntennaList(System.Int32,System.Collections.Generic.List{SpotLib.Antenna}@)
+  name: GetRfidAntennaList(Int32, out List<Antenna>)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaList_System_Int32_System_Collections_Generic_List_SpotLib_Antenna___
+  commentId: M:SpotLib.API.GetRfidAntennaList(System.Int32,System.Collections.Generic.List{SpotLib.Antenna}@)
+  name.vb: GetRfidAntennaList(Int32, ByRef List(Of Antenna))
+  fullName: SpotLib.API.GetRfidAntennaList(System.Int32, out System.Collections.Generic.List<SpotLib.Antenna>)
+  fullName.vb: SpotLib.API.GetRfidAntennaList(System.Int32, ByRef System.Collections.Generic.List(Of SpotLib.Antenna))
+  nameWithType: API.GetRfidAntennaList(Int32, out List<Antenna>)
+  nameWithType.vb: API.GetRfidAntennaList(Int32, ByRef List(Of Antenna))
+- uid: SpotLib.API.GetRfidAntennaList*
+  name: GetRfidAntennaList
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidAntennaList_
+  commentId: Overload:SpotLib.API.GetRfidAntennaList
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidAntennaList
+  nameWithType: API.GetRfidAntennaList
+- uid: SpotLib.API.GetRfidChannel(System.Int32,System.UInt32@)
+  name: GetRfidChannel(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidChannel_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidChannel(System.Int32,System.UInt32@)
+  name.vb: GetRfidChannel(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidChannel(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidChannel(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidChannel(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidChannel(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidChannel*
+  name: GetRfidChannel
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidChannel_
+  commentId: Overload:SpotLib.API.GetRfidChannel
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidChannel
+  nameWithType: API.GetRfidChannel
+- uid: SpotLib.API.GetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode@)
+  name: GetRfidCodeMode(Int32, out RfidCodeMode)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidCodeMode_System_Int32_SpotLib_RfidCodeMode__
+  commentId: M:SpotLib.API.GetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode@)
+  name.vb: GetRfidCodeMode(Int32, ByRef RfidCodeMode)
+  fullName: SpotLib.API.GetRfidCodeMode(System.Int32, out SpotLib.RfidCodeMode)
+  fullName.vb: SpotLib.API.GetRfidCodeMode(System.Int32, ByRef SpotLib.RfidCodeMode)
+  nameWithType: API.GetRfidCodeMode(Int32, out RfidCodeMode)
+  nameWithType.vb: API.GetRfidCodeMode(Int32, ByRef RfidCodeMode)
+- uid: SpotLib.API.GetRfidCodeMode*
+  name: GetRfidCodeMode
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidCodeMode_
+  commentId: Overload:SpotLib.API.GetRfidCodeMode
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidCodeMode
+  nameWithType: API.GetRfidCodeMode
+- uid: SpotLib.API.GetRfidContinuesEnabledState(System.Int32,System.Boolean@)
+  name: GetRfidContinuesEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidContinuesEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetRfidContinuesEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetRfidContinuesEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetRfidContinuesEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRfidContinuesEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetRfidContinuesEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetRfidContinuesEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetRfidContinuesEnabledState*
+  name: GetRfidContinuesEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidContinuesEnabledState_
+  commentId: Overload:SpotLib.API.GetRfidContinuesEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidContinuesEnabledState
+  nameWithType: API.GetRfidContinuesEnabledState
+- uid: SpotLib.API.GetRfidEnabledState(System.Int32,System.Boolean@)
+  name: GetRfidEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetRfidEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetRfidEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetRfidEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRfidEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetRfidEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetRfidEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetRfidEnabledState*
+  name: GetRfidEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidEnabledState_
+  commentId: Overload:SpotLib.API.GetRfidEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidEnabledState
+  nameWithType: API.GetRfidEnabledState
+- uid: SpotLib.API.GetRfidFilterThreshold(System.Int32,System.Int32@)
+  name: GetRfidFilterThreshold(Int32, out Int32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidFilterThreshold_System_Int32_System_Int32__
+  commentId: M:SpotLib.API.GetRfidFilterThreshold(System.Int32,System.Int32@)
+  name.vb: GetRfidFilterThreshold(Int32, ByRef Int32)
+  fullName: SpotLib.API.GetRfidFilterThreshold(System.Int32, out System.Int32)
+  fullName.vb: SpotLib.API.GetRfidFilterThreshold(System.Int32, ByRef System.Int32)
+  nameWithType: API.GetRfidFilterThreshold(Int32, out Int32)
+  nameWithType.vb: API.GetRfidFilterThreshold(Int32, ByRef Int32)
+- uid: SpotLib.API.GetRfidFilterThreshold*
+  name: GetRfidFilterThreshold
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidFilterThreshold_
+  commentId: Overload:SpotLib.API.GetRfidFilterThreshold
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidFilterThreshold
+  nameWithType: API.GetRfidFilterThreshold
+- uid: SpotLib.API.GetRfidInventoryEnabledState(System.Int32,System.Boolean@)
+  name: GetRfidInventoryEnabledState(Int32, out Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidInventoryEnabledState_System_Int32_System_Boolean__
+  commentId: M:SpotLib.API.GetRfidInventoryEnabledState(System.Int32,System.Boolean@)
+  name.vb: GetRfidInventoryEnabledState(Int32, ByRef Boolean)
+  fullName: SpotLib.API.GetRfidInventoryEnabledState(System.Int32, out System.Boolean)
+  fullName.vb: SpotLib.API.GetRfidInventoryEnabledState(System.Int32, ByRef System.Boolean)
+  nameWithType: API.GetRfidInventoryEnabledState(Int32, out Boolean)
+  nameWithType.vb: API.GetRfidInventoryEnabledState(Int32, ByRef Boolean)
+- uid: SpotLib.API.GetRfidInventoryEnabledState*
+  name: GetRfidInventoryEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidInventoryEnabledState_
+  commentId: Overload:SpotLib.API.GetRfidInventoryEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidInventoryEnabledState
+  nameWithType: API.GetRfidInventoryEnabledState
+- uid: SpotLib.API.GetRfidMaxQ(System.Int32,System.UInt32@)
+  name: GetRfidMaxQ(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidMaxQ_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidMaxQ(System.Int32,System.UInt32@)
+  name.vb: GetRfidMaxQ(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidMaxQ(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidMaxQ(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidMaxQ(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidMaxQ(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidMaxQ*
+  name: GetRfidMaxQ
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidMaxQ_
+  commentId: Overload:SpotLib.API.GetRfidMaxQ
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidMaxQ
+  nameWithType: API.GetRfidMaxQ
+- uid: SpotLib.API.GetRfidMinQ(System.Int32,System.UInt32@)
+  name: GetRfidMinQ(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidMinQ_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidMinQ(System.Int32,System.UInt32@)
+  name.vb: GetRfidMinQ(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidMinQ(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidMinQ(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidMinQ(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidMinQ(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidMinQ*
+  name: GetRfidMinQ
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidMinQ_
+  commentId: Overload:SpotLib.API.GetRfidMinQ
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidMinQ
+  nameWithType: API.GetRfidMinQ
+- uid: SpotLib.API.GetRfidPeriodMs(System.Int32,System.UInt32@)
+  name: GetRfidPeriodMs(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidPeriodMs_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidPeriodMs(System.Int32,System.UInt32@)
+  name.vb: GetRfidPeriodMs(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidPeriodMs(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidPeriodMs(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidPeriodMs(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidPeriodMs(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidPeriodMs*
+  name: GetRfidPeriodMs
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidPeriodMs_
+  commentId: Overload:SpotLib.API.GetRfidPeriodMs
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidPeriodMs
+  nameWithType: API.GetRfidPeriodMs
+- uid: SpotLib.API.GetRfidPower(System.Int32,System.UInt32@)
+  name: GetRfidPower(Int32, out UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidPower_System_Int32_System_UInt32__
+  commentId: M:SpotLib.API.GetRfidPower(System.Int32,System.UInt32@)
+  name.vb: GetRfidPower(Int32, ByRef UInt32)
+  fullName: SpotLib.API.GetRfidPower(System.Int32, out System.UInt32)
+  fullName.vb: SpotLib.API.GetRfidPower(System.Int32, ByRef System.UInt32)
+  nameWithType: API.GetRfidPower(Int32, out UInt32)
+  nameWithType.vb: API.GetRfidPower(Int32, ByRef UInt32)
+- uid: SpotLib.API.GetRfidPower*
+  name: GetRfidPower
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidPower_
+  commentId: Overload:SpotLib.API.GetRfidPower
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidPower
+  nameWithType: API.GetRfidPower
+- uid: SpotLib.API.GetRfidRegion(System.Int32,SpotLib.RfidRegionType@)
+  name: GetRfidRegion(Int32, out RfidRegionType)
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidRegion_System_Int32_SpotLib_RfidRegionType__
+  commentId: M:SpotLib.API.GetRfidRegion(System.Int32,SpotLib.RfidRegionType@)
+  name.vb: GetRfidRegion(Int32, ByRef RfidRegionType)
+  fullName: SpotLib.API.GetRfidRegion(System.Int32, out SpotLib.RfidRegionType)
+  fullName.vb: SpotLib.API.GetRfidRegion(System.Int32, ByRef SpotLib.RfidRegionType)
+  nameWithType: API.GetRfidRegion(Int32, out RfidRegionType)
+  nameWithType.vb: API.GetRfidRegion(Int32, ByRef RfidRegionType)
+- uid: SpotLib.API.GetRfidRegion*
+  name: GetRfidRegion
+  href: api/SpotLib.API.html#SpotLib_API_GetRfidRegion_
+  commentId: Overload:SpotLib.API.GetRfidRegion
+  isSpec: "True"
+  fullName: SpotLib.API.GetRfidRegion
+  nameWithType: API.GetRfidRegion
+- uid: SpotLib.API.GetSecondaryDNS(System.Int32,System.String@)
+  name: GetSecondaryDNS(Int32, out String)
+  href: api/SpotLib.API.html#SpotLib_API_GetSecondaryDNS_System_Int32_System_String__
+  commentId: M:SpotLib.API.GetSecondaryDNS(System.Int32,System.String@)
+  name.vb: GetSecondaryDNS(Int32, ByRef String)
+  fullName: SpotLib.API.GetSecondaryDNS(System.Int32, out System.String)
+  fullName.vb: SpotLib.API.GetSecondaryDNS(System.Int32, ByRef System.String)
+  nameWithType: API.GetSecondaryDNS(Int32, out String)
+  nameWithType.vb: API.GetSecondaryDNS(Int32, ByRef String)
+- uid: SpotLib.API.GetSecondaryDNS*
+  name: GetSecondaryDNS
+  href: api/SpotLib.API.html#SpotLib_API_GetSecondaryDNS_
+  commentId: Overload:SpotLib.API.GetSecondaryDNS
+  isSpec: "True"
+  fullName: SpotLib.API.GetSecondaryDNS
+  nameWithType: API.GetSecondaryDNS
+- uid: SpotLib.API.GetSpotCount
+  name: GetSpotCount()
+  href: api/SpotLib.API.html#SpotLib_API_GetSpotCount
+  commentId: M:SpotLib.API.GetSpotCount
+  fullName: SpotLib.API.GetSpotCount()
+  nameWithType: API.GetSpotCount()
+- uid: SpotLib.API.GetSpotCount*
+  name: GetSpotCount
+  href: api/SpotLib.API.html#SpotLib_API_GetSpotCount_
+  commentId: Overload:SpotLib.API.GetSpotCount
+  isSpec: "True"
+  fullName: SpotLib.API.GetSpotCount
+  nameWithType: API.GetSpotCount
+- uid: SpotLib.API.GetSpotIDs
+  name: GetSpotIDs()
+  href: api/SpotLib.API.html#SpotLib_API_GetSpotIDs
+  commentId: M:SpotLib.API.GetSpotIDs
+  fullName: SpotLib.API.GetSpotIDs()
+  nameWithType: API.GetSpotIDs()
+- uid: SpotLib.API.GetSpotIDs*
+  name: GetSpotIDs
+  href: api/SpotLib.API.html#SpotLib_API_GetSpotIDs_
+  commentId: Overload:SpotLib.API.GetSpotIDs
+  isSpec: "True"
+  fullName: SpotLib.API.GetSpotIDs
+  nameWithType: API.GetSpotIDs
+- uid: SpotLib.API.Init
+  name: Init()
+  href: api/SpotLib.API.html#SpotLib_API_Init
+  commentId: M:SpotLib.API.Init
+  fullName: SpotLib.API.Init()
+  nameWithType: API.Init()
+- uid: SpotLib.API.Init*
+  name: Init
+  href: api/SpotLib.API.html#SpotLib_API_Init_
+  commentId: Overload:SpotLib.API.Init
+  isSpec: "True"
+  fullName: SpotLib.API.Init
+  nameWithType: API.Init
+- uid: SpotLib.API.IsConnected(System.Int32)
+  name: IsConnected(Int32)
+  href: api/SpotLib.API.html#SpotLib_API_IsConnected_System_Int32_
+  commentId: M:SpotLib.API.IsConnected(System.Int32)
+  fullName: SpotLib.API.IsConnected(System.Int32)
+  nameWithType: API.IsConnected(Int32)
+- uid: SpotLib.API.IsConnected*
+  name: IsConnected
+  href: api/SpotLib.API.html#SpotLib_API_IsConnected_
+  commentId: Overload:SpotLib.API.IsConnected
+  isSpec: "True"
+  fullName: SpotLib.API.IsConnected
+  nameWithType: API.IsConnected
+- uid: SpotLib.API.IsInit
+  name: IsInit
+  href: api/SpotLib.API.html#SpotLib_API_IsInit
+  commentId: P:SpotLib.API.IsInit
+  fullName: SpotLib.API.IsInit
+  nameWithType: API.IsInit
+- uid: SpotLib.API.IsInit*
+  name: IsInit
+  href: api/SpotLib.API.html#SpotLib_API_IsInit_
+  commentId: Overload:SpotLib.API.IsInit
+  isSpec: "True"
+  fullName: SpotLib.API.IsInit
+  nameWithType: API.IsInit
+- uid: SpotLib.API.Item
+  name: Item
+  href: api/SpotLib.API.html#SpotLib_API_Item
+  commentId: E:SpotLib.API.Item
+  fullName: SpotLib.API.Item
+  nameWithType: API.Item
+- uid: SpotLib.API.Presence
+  name: Presence
+  href: api/SpotLib.API.html#SpotLib_API_Presence
+  commentId: E:SpotLib.API.Presence
+  fullName: SpotLib.API.Presence
+  nameWithType: API.Presence
+- uid: SpotLib.API.RawHit
+  name: RawHit
+  href: api/SpotLib.API.html#SpotLib_API_RawHit
+  commentId: E:SpotLib.API.RawHit
+  fullName: SpotLib.API.RawHit
+  nameWithType: API.RawHit
+- uid: SpotLib.API.SetAntennaMaxSWR(System.Int32,System.UInt32)
+  name: SetAntennaMaxSWR(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetAntennaMaxSWR_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetAntennaMaxSWR(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetAntennaMaxSWR(System.Int32, System.UInt32)
+  nameWithType: API.SetAntennaMaxSWR(Int32, UInt32)
+- uid: SpotLib.API.SetAntennaMaxSWR*
+  name: SetAntennaMaxSWR
+  href: api/SpotLib.API.html#SpotLib_API_SetAntennaMaxSWR_
+  commentId: Overload:SpotLib.API.SetAntennaMaxSWR
+  isSpec: "True"
+  fullName: SpotLib.API.SetAntennaMaxSWR
+  nameWithType: API.SetAntennaMaxSWR
+- uid: SpotLib.API.SetAntennaPresencesEnabledState(System.Int32,System.Boolean)
+  name: SetAntennaPresencesEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetAntennaPresencesEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetAntennaPresencesEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetAntennaPresencesEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetAntennaPresencesEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetAntennaPresencesEnabledState*
+  name: SetAntennaPresencesEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetAntennaPresencesEnabledState_
+  commentId: Overload:SpotLib.API.SetAntennaPresencesEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetAntennaPresencesEnabledState
+  nameWithType: API.SetAntennaPresencesEnabledState
+- uid: SpotLib.API.SetBluetoothEnabledState(System.Int32,System.Boolean)
+  name: SetBluetoothEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetBluetoothEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetBluetoothEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetBluetoothEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetBluetoothEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetBluetoothEnabledState*
+  name: SetBluetoothEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetBluetoothEnabledState_
+  commentId: Overload:SpotLib.API.SetBluetoothEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetBluetoothEnabledState
+  nameWithType: API.SetBluetoothEnabledState
+- uid: SpotLib.API.SetBluetoothFilterThreshold(System.Int32,System.Int32)
+  name: SetBluetoothFilterThreshold(Int32, Int32)
+  href: api/SpotLib.API.html#SpotLib_API_SetBluetoothFilterThreshold_System_Int32_System_Int32_
+  commentId: M:SpotLib.API.SetBluetoothFilterThreshold(System.Int32,System.Int32)
+  fullName: SpotLib.API.SetBluetoothFilterThreshold(System.Int32, System.Int32)
+  nameWithType: API.SetBluetoothFilterThreshold(Int32, Int32)
+- uid: SpotLib.API.SetBluetoothFilterThreshold*
+  name: SetBluetoothFilterThreshold
+  href: api/SpotLib.API.html#SpotLib_API_SetBluetoothFilterThreshold_
+  commentId: Overload:SpotLib.API.SetBluetoothFilterThreshold
+  isSpec: "True"
+  fullName: SpotLib.API.SetBluetoothFilterThreshold
+  nameWithType: API.SetBluetoothFilterThreshold
+- uid: SpotLib.API.SetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32)
+  name: SetFilterHysteresis(Int32, TechnologyType, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetFilterHysteresis_System_Int32_SpotLib_TechnologyType_System_UInt32_
+  commentId: M:SpotLib.API.SetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32)
+  fullName: SpotLib.API.SetFilterHysteresis(System.Int32, SpotLib.TechnologyType, System.UInt32)
+  nameWithType: API.SetFilterHysteresis(Int32, TechnologyType, UInt32)
+- uid: SpotLib.API.SetFilterHysteresis*
+  name: SetFilterHysteresis
+  href: api/SpotLib.API.html#SpotLib_API_SetFilterHysteresis_
+  commentId: Overload:SpotLib.API.SetFilterHysteresis
+  isSpec: "True"
+  fullName: SpotLib.API.SetFilterHysteresis
+  nameWithType: API.SetFilterHysteresis
+- uid: SpotLib.API.SetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32)
+  name: SetFilterWindowSize(Int32, TechnologyType, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetFilterWindowSize_System_Int32_SpotLib_TechnologyType_System_UInt32_
+  commentId: M:SpotLib.API.SetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32)
+  fullName: SpotLib.API.SetFilterWindowSize(System.Int32, SpotLib.TechnologyType, System.UInt32)
+  nameWithType: API.SetFilterWindowSize(Int32, TechnologyType, UInt32)
+- uid: SpotLib.API.SetFilterWindowSize*
+  name: SetFilterWindowSize
+  href: api/SpotLib.API.html#SpotLib_API_SetFilterWindowSize_
+  commentId: Overload:SpotLib.API.SetFilterWindowSize
+  isSpec: "True"
+  fullName: SpotLib.API.SetFilterWindowSize
+  nameWithType: API.SetFilterWindowSize
+- uid: SpotLib.API.SetFirmwareUpdateEnabledState(System.Int32,System.Boolean,System.UInt32)
+  name: SetFirmwareUpdateEnabledState(Int32, Boolean, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetFirmwareUpdateEnabledState_System_Int32_System_Boolean_System_UInt32_
+  commentId: M:SpotLib.API.SetFirmwareUpdateEnabledState(System.Int32,System.Boolean,System.UInt32)
+  fullName: SpotLib.API.SetFirmwareUpdateEnabledState(System.Int32, System.Boolean, System.UInt32)
+  nameWithType: API.SetFirmwareUpdateEnabledState(Int32, Boolean, UInt32)
+- uid: SpotLib.API.SetFirmwareUpdateEnabledState*
+  name: SetFirmwareUpdateEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetFirmwareUpdateEnabledState_
+  commentId: Overload:SpotLib.API.SetFirmwareUpdateEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetFirmwareUpdateEnabledState
+  nameWithType: API.SetFirmwareUpdateEnabledState
+- uid: SpotLib.API.SetHoldTime(System.Int32,System.UInt32)
+  name: SetHoldTime(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetHoldTime_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetHoldTime(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetHoldTime(System.Int32, System.UInt32)
+  nameWithType: API.SetHoldTime(Int32, UInt32)
+- uid: SpotLib.API.SetHoldTime*
+  name: SetHoldTime
+  href: api/SpotLib.API.html#SpotLib_API_SetHoldTime_
+  commentId: Overload:SpotLib.API.SetHoldTime
+  isSpec: "True"
+  fullName: SpotLib.API.SetHoldTime
+  nameWithType: API.SetHoldTime
+- uid: SpotLib.API.SetHoldTimeAutomaticEnabledState(System.Int32,System.Boolean)
+  name: SetHoldTimeAutomaticEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetHoldTimeAutomaticEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetHoldTimeAutomaticEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetHoldTimeAutomaticEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetHoldTimeAutomaticEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetHoldTimeAutomaticEnabledState*
+  name: SetHoldTimeAutomaticEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetHoldTimeAutomaticEnabledState_
+  commentId: Overload:SpotLib.API.SetHoldTimeAutomaticEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetHoldTimeAutomaticEnabledState
+  nameWithType: API.SetHoldTimeAutomaticEnabledState
+- uid: SpotLib.API.SetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32)
+  name: SetProximityLevel(Int32, TechnologyType, ProximityType, Int32)
+  href: api/SpotLib.API.html#SpotLib_API_SetProximityLevel_System_Int32_SpotLib_TechnologyType_SpotLib_ProximityType_System_Int32_
+  commentId: M:SpotLib.API.SetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32)
+  fullName: SpotLib.API.SetProximityLevel(System.Int32, SpotLib.TechnologyType, SpotLib.ProximityType, System.Int32)
+  nameWithType: API.SetProximityLevel(Int32, TechnologyType, ProximityType, Int32)
+- uid: SpotLib.API.SetProximityLevel*
+  name: SetProximityLevel
+  href: api/SpotLib.API.html#SpotLib_API_SetProximityLevel_
+  commentId: Overload:SpotLib.API.SetProximityLevel
+  isSpec: "True"
+  fullName: SpotLib.API.SetProximityLevel
+  nameWithType: API.SetProximityLevel
+- uid: SpotLib.API.SetRawHitEventsEnabledState(System.Int32,System.Boolean)
+  name: SetRawHitEventsEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRawHitEventsEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetRawHitEventsEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetRawHitEventsEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetRawHitEventsEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetRawHitEventsEnabledState*
+  name: SetRawHitEventsEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetRawHitEventsEnabledState_
+  commentId: Overload:SpotLib.API.SetRawHitEventsEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetRawHitEventsEnabledState
+  nameWithType: API.SetRawHitEventsEnabledState
+- uid: SpotLib.API.SetRfidAntennaDisableMask(System.Int32,System.UInt32,System.Boolean)
+  name: SetRfidAntennaDisableMask(Int32, UInt32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidAntennaDisableMask_System_Int32_System_UInt32_System_Boolean_
+  commentId: M:SpotLib.API.SetRfidAntennaDisableMask(System.Int32,System.UInt32,System.Boolean)
+  fullName: SpotLib.API.SetRfidAntennaDisableMask(System.Int32, System.UInt32, System.Boolean)
+  nameWithType: API.SetRfidAntennaDisableMask(Int32, UInt32, Boolean)
+- uid: SpotLib.API.SetRfidAntennaDisableMask*
+  name: SetRfidAntennaDisableMask
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidAntennaDisableMask_
+  commentId: Overload:SpotLib.API.SetRfidAntennaDisableMask
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidAntennaDisableMask
+  nameWithType: API.SetRfidAntennaDisableMask
+- uid: SpotLib.API.SetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean,System.Boolean)
+  name: SetRfidAntennaEnabledState(Int32, UInt32, Boolean, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidAntennaEnabledState_System_Int32_System_UInt32_System_Boolean_System_Boolean_
+  commentId: M:SpotLib.API.SetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean,System.Boolean)
+  fullName: SpotLib.API.SetRfidAntennaEnabledState(System.Int32, System.UInt32, System.Boolean, System.Boolean)
+  nameWithType: API.SetRfidAntennaEnabledState(Int32, UInt32, Boolean, Boolean)
+- uid: SpotLib.API.SetRfidAntennaEnabledState*
+  name: SetRfidAntennaEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidAntennaEnabledState_
+  commentId: Overload:SpotLib.API.SetRfidAntennaEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidAntennaEnabledState
+  nameWithType: API.SetRfidAntennaEnabledState
+- uid: SpotLib.API.SetRfidChannel(System.Int32,System.UInt32)
+  name: SetRfidChannel(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidChannel_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetRfidChannel(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetRfidChannel(System.Int32, System.UInt32)
+  nameWithType: API.SetRfidChannel(Int32, UInt32)
+- uid: SpotLib.API.SetRfidChannel*
+  name: SetRfidChannel
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidChannel_
+  commentId: Overload:SpotLib.API.SetRfidChannel
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidChannel
+  nameWithType: API.SetRfidChannel
+- uid: SpotLib.API.SetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode)
+  name: SetRfidCodeMode(Int32, RfidCodeMode)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidCodeMode_System_Int32_SpotLib_RfidCodeMode_
+  commentId: M:SpotLib.API.SetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode)
+  fullName: SpotLib.API.SetRfidCodeMode(System.Int32, SpotLib.RfidCodeMode)
+  nameWithType: API.SetRfidCodeMode(Int32, RfidCodeMode)
+- uid: SpotLib.API.SetRfidCodeMode*
+  name: SetRfidCodeMode
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidCodeMode_
+  commentId: Overload:SpotLib.API.SetRfidCodeMode
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidCodeMode
+  nameWithType: API.SetRfidCodeMode
+- uid: SpotLib.API.SetRfidContinuesEnabledState(System.Int32,System.Boolean)
+  name: SetRfidContinuesEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidContinuesEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetRfidContinuesEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetRfidContinuesEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetRfidContinuesEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetRfidContinuesEnabledState*
+  name: SetRfidContinuesEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidContinuesEnabledState_
+  commentId: Overload:SpotLib.API.SetRfidContinuesEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidContinuesEnabledState
+  nameWithType: API.SetRfidContinuesEnabledState
+- uid: SpotLib.API.SetRfidEnabledState(System.Int32,System.Boolean)
+  name: SetRfidEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetRfidEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetRfidEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetRfidEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetRfidEnabledState*
+  name: SetRfidEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidEnabledState_
+  commentId: Overload:SpotLib.API.SetRfidEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidEnabledState
+  nameWithType: API.SetRfidEnabledState
+- uid: SpotLib.API.SetRfidFilterThreshold(System.Int32,System.Int32)
+  name: SetRfidFilterThreshold(Int32, Int32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidFilterThreshold_System_Int32_System_Int32_
+  commentId: M:SpotLib.API.SetRfidFilterThreshold(System.Int32,System.Int32)
+  fullName: SpotLib.API.SetRfidFilterThreshold(System.Int32, System.Int32)
+  nameWithType: API.SetRfidFilterThreshold(Int32, Int32)
+- uid: SpotLib.API.SetRfidFilterThreshold*
+  name: SetRfidFilterThreshold
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidFilterThreshold_
+  commentId: Overload:SpotLib.API.SetRfidFilterThreshold
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidFilterThreshold
+  nameWithType: API.SetRfidFilterThreshold
+- uid: SpotLib.API.SetRfidInventoryEnabledState(System.Int32,System.Boolean)
+  name: SetRfidInventoryEnabledState(Int32, Boolean)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidInventoryEnabledState_System_Int32_System_Boolean_
+  commentId: M:SpotLib.API.SetRfidInventoryEnabledState(System.Int32,System.Boolean)
+  fullName: SpotLib.API.SetRfidInventoryEnabledState(System.Int32, System.Boolean)
+  nameWithType: API.SetRfidInventoryEnabledState(Int32, Boolean)
+- uid: SpotLib.API.SetRfidInventoryEnabledState*
+  name: SetRfidInventoryEnabledState
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidInventoryEnabledState_
+  commentId: Overload:SpotLib.API.SetRfidInventoryEnabledState
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidInventoryEnabledState
+  nameWithType: API.SetRfidInventoryEnabledState
+- uid: SpotLib.API.SetRfidMaxQ(System.Int32,System.UInt32)
+  name: SetRfidMaxQ(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidMaxQ_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetRfidMaxQ(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetRfidMaxQ(System.Int32, System.UInt32)
+  nameWithType: API.SetRfidMaxQ(Int32, UInt32)
+- uid: SpotLib.API.SetRfidMaxQ*
+  name: SetRfidMaxQ
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidMaxQ_
+  commentId: Overload:SpotLib.API.SetRfidMaxQ
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidMaxQ
+  nameWithType: API.SetRfidMaxQ
+- uid: SpotLib.API.SetRfidMinQ(System.Int32,System.UInt32)
+  name: SetRfidMinQ(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetRfidMinQ(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetRfidMinQ(System.Int32, System.UInt32)
+  nameWithType: API.SetRfidMinQ(Int32, UInt32)
+- uid: SpotLib.API.SetRfidMinQ*
+  name: SetRfidMinQ
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidMinQ_
+  commentId: Overload:SpotLib.API.SetRfidMinQ
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidMinQ
+  nameWithType: API.SetRfidMinQ
+- uid: SpotLib.API.SetRfidPeriodMs(System.Int32,System.UInt32)
+  name: SetRfidPeriodMs(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidPeriodMs_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetRfidPeriodMs(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetRfidPeriodMs(System.Int32, System.UInt32)
+  nameWithType: API.SetRfidPeriodMs(Int32, UInt32)
+- uid: SpotLib.API.SetRfidPeriodMs*
+  name: SetRfidPeriodMs
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidPeriodMs_
+  commentId: Overload:SpotLib.API.SetRfidPeriodMs
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidPeriodMs
+  nameWithType: API.SetRfidPeriodMs
+- uid: SpotLib.API.SetRfidPower(System.Int32,System.UInt32)
+  name: SetRfidPower(Int32, UInt32)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidPower_System_Int32_System_UInt32_
+  commentId: M:SpotLib.API.SetRfidPower(System.Int32,System.UInt32)
+  fullName: SpotLib.API.SetRfidPower(System.Int32, System.UInt32)
+  nameWithType: API.SetRfidPower(Int32, UInt32)
+- uid: SpotLib.API.SetRfidPower*
+  name: SetRfidPower
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidPower_
+  commentId: Overload:SpotLib.API.SetRfidPower
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidPower
+  nameWithType: API.SetRfidPower
+- uid: SpotLib.API.SetRfidRegion(System.Int32,SpotLib.RfidRegionType)
+  name: SetRfidRegion(Int32, RfidRegionType)
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidRegion_System_Int32_SpotLib_RfidRegionType_
+  commentId: M:SpotLib.API.SetRfidRegion(System.Int32,SpotLib.RfidRegionType)
+  fullName: SpotLib.API.SetRfidRegion(System.Int32, SpotLib.RfidRegionType)
+  nameWithType: API.SetRfidRegion(Int32, RfidRegionType)
+- uid: SpotLib.API.SetRfidRegion*
+  name: SetRfidRegion
+  href: api/SpotLib.API.html#SpotLib_API_SetRfidRegion_
+  commentId: Overload:SpotLib.API.SetRfidRegion
+  isSpec: "True"
+  fullName: SpotLib.API.SetRfidRegion
+  nameWithType: API.SetRfidRegion
+- uid: SpotLib.API.Spot
+  name: Spot
+  href: api/SpotLib.API.html#SpotLib_API_Spot
+  commentId: E:SpotLib.API.Spot
+  fullName: SpotLib.API.Spot
+  nameWithType: API.Spot
+- uid: SpotLib.BluetoothAntenna
+  name: BluetoothAntenna
+  href: api/SpotLib.BluetoothAntenna.html
+  commentId: T:SpotLib.BluetoothAntenna
+  fullName: SpotLib.BluetoothAntenna
+  nameWithType: BluetoothAntenna
+- uid: SpotLib.BluetoothAntenna.#ctor(System.UInt32)
+  name: BluetoothAntenna(UInt32)
+  href: api/SpotLib.BluetoothAntenna.html#SpotLib_BluetoothAntenna__ctor_System_UInt32_
+  commentId: M:SpotLib.BluetoothAntenna.#ctor(System.UInt32)
+  fullName: SpotLib.BluetoothAntenna.BluetoothAntenna(System.UInt32)
+  nameWithType: BluetoothAntenna.BluetoothAntenna(UInt32)
+- uid: SpotLib.BluetoothAntenna.#ctor*
+  name: BluetoothAntenna
+  href: api/SpotLib.BluetoothAntenna.html#SpotLib_BluetoothAntenna__ctor_
+  commentId: Overload:SpotLib.BluetoothAntenna.#ctor
+  isSpec: "True"
+  fullName: SpotLib.BluetoothAntenna.BluetoothAntenna
+  nameWithType: BluetoothAntenna.BluetoothAntenna
+- uid: SpotLib.Hit
+  name: Hit
+  href: api/SpotLib.Hit.html
+  commentId: T:SpotLib.Hit
+  fullName: SpotLib.Hit
+  nameWithType: Hit
+- uid: SpotLib.Hit.#ctor
+  name: Hit()
+  href: api/SpotLib.Hit.html#SpotLib_Hit__ctor
+  commentId: M:SpotLib.Hit.#ctor
+  fullName: SpotLib.Hit.Hit()
+  nameWithType: Hit.Hit()
+- uid: SpotLib.Hit.#ctor(SpotLib.Hit)
+  name: Hit(Hit)
+  href: api/SpotLib.Hit.html#SpotLib_Hit__ctor_SpotLib_Hit_
+  commentId: M:SpotLib.Hit.#ctor(SpotLib.Hit)
+  fullName: SpotLib.Hit.Hit(SpotLib.Hit)
+  nameWithType: Hit.Hit(Hit)
+- uid: SpotLib.Hit.#ctor*
+  name: Hit
+  href: api/SpotLib.Hit.html#SpotLib_Hit__ctor_
+  commentId: Overload:SpotLib.Hit.#ctor
+  isSpec: "True"
+  fullName: SpotLib.Hit.Hit
+  nameWithType: Hit.Hit
+- uid: SpotLib.Hit.AntennaNumber
+  name: AntennaNumber
+  href: api/SpotLib.Hit.html#SpotLib_Hit_AntennaNumber
+  commentId: P:SpotLib.Hit.AntennaNumber
+  fullName: SpotLib.Hit.AntennaNumber
+  nameWithType: Hit.AntennaNumber
+- uid: SpotLib.Hit.AntennaNumber*
+  name: AntennaNumber
+  href: api/SpotLib.Hit.html#SpotLib_Hit_AntennaNumber_
+  commentId: Overload:SpotLib.Hit.AntennaNumber
+  isSpec: "True"
+  fullName: SpotLib.Hit.AntennaNumber
+  nameWithType: Hit.AntennaNumber
+- uid: SpotLib.Hit.Copy
+  name: Copy()
+  href: api/SpotLib.Hit.html#SpotLib_Hit_Copy
+  commentId: M:SpotLib.Hit.Copy
+  fullName: SpotLib.Hit.Copy()
+  nameWithType: Hit.Copy()
+- uid: SpotLib.Hit.Copy*
+  name: Copy
+  href: api/SpotLib.Hit.html#SpotLib_Hit_Copy_
+  commentId: Overload:SpotLib.Hit.Copy
+  isSpec: "True"
+  fullName: SpotLib.Hit.Copy
+  nameWithType: Hit.Copy
+- uid: SpotLib.Hit.Item
+  name: Item
+  href: api/SpotLib.Hit.html#SpotLib_Hit_Item
+  commentId: P:SpotLib.Hit.Item
+  fullName: SpotLib.Hit.Item
+  nameWithType: Hit.Item
+- uid: SpotLib.Hit.Item*
+  name: Item
+  href: api/SpotLib.Hit.html#SpotLib_Hit_Item_
+  commentId: Overload:SpotLib.Hit.Item
+  isSpec: "True"
+  fullName: SpotLib.Hit.Item
+  nameWithType: Hit.Item
+- uid: SpotLib.Hit.RSSI
+  name: RSSI
+  href: api/SpotLib.Hit.html#SpotLib_Hit_RSSI
+  commentId: P:SpotLib.Hit.RSSI
+  fullName: SpotLib.Hit.RSSI
+  nameWithType: Hit.RSSI
+- uid: SpotLib.Hit.RSSI*
+  name: RSSI
+  href: api/SpotLib.Hit.html#SpotLib_Hit_RSSI_
+  commentId: Overload:SpotLib.Hit.RSSI
+  isSpec: "True"
+  fullName: SpotLib.Hit.RSSI
+  nameWithType: Hit.RSSI
+- uid: SpotLib.Hit.TimeEvent
+  name: TimeEvent
+  href: api/SpotLib.Hit.html#SpotLib_Hit_TimeEvent
+  commentId: P:SpotLib.Hit.TimeEvent
+  fullName: SpotLib.Hit.TimeEvent
+  nameWithType: Hit.TimeEvent
+- uid: SpotLib.Hit.TimeEvent*
+  name: TimeEvent
+  href: api/SpotLib.Hit.html#SpotLib_Hit_TimeEvent_
+  commentId: Overload:SpotLib.Hit.TimeEvent
+  isSpec: "True"
+  fullName: SpotLib.Hit.TimeEvent
+  nameWithType: Hit.TimeEvent
+- uid: SpotLib.Item
+  name: Item
+  href: api/SpotLib.Item.html
+  commentId: T:SpotLib.Item
+  fullName: SpotLib.Item
+  nameWithType: Item
+- uid: SpotLib.Item.#ctor
+  name: Item()
+  href: api/SpotLib.Item.html#SpotLib_Item__ctor
+  commentId: M:SpotLib.Item.#ctor
+  fullName: SpotLib.Item.Item()
+  nameWithType: Item.Item()
+- uid: SpotLib.Item.#ctor*
+  name: Item
+  href: api/SpotLib.Item.html#SpotLib_Item__ctor_
+  commentId: Overload:SpotLib.Item.#ctor
+  isSpec: "True"
+  fullName: SpotLib.Item.Item
+  nameWithType: Item.Item
+- uid: SpotLib.Item.Code
+  name: Code
+  href: api/SpotLib.Item.html#SpotLib_Item_Code
+  commentId: P:SpotLib.Item.Code
+  fullName: SpotLib.Item.Code
+  nameWithType: Item.Code
+- uid: SpotLib.Item.Code*
+  name: Code
+  href: api/SpotLib.Item.html#SpotLib_Item_Code_
+  commentId: Overload:SpotLib.Item.Code
+  isSpec: "True"
+  fullName: SpotLib.Item.Code
+  nameWithType: Item.Code
+- uid: SpotLib.Item.CodeProtocol
+  name: CodeProtocol
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeProtocol
+  commentId: P:SpotLib.Item.CodeProtocol
+  fullName: SpotLib.Item.CodeProtocol
+  nameWithType: Item.CodeProtocol
+- uid: SpotLib.Item.CodeProtocol*
+  name: CodeProtocol
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeProtocol_
+  commentId: Overload:SpotLib.Item.CodeProtocol
+  isSpec: "True"
+  fullName: SpotLib.Item.CodeProtocol
+  nameWithType: Item.CodeProtocol
+- uid: SpotLib.Item.CodeTechnology
+  name: CodeTechnology
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeTechnology
+  commentId: P:SpotLib.Item.CodeTechnology
+  fullName: SpotLib.Item.CodeTechnology
+  nameWithType: Item.CodeTechnology
+- uid: SpotLib.Item.CodeTechnology*
+  name: CodeTechnology
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeTechnology_
+  commentId: Overload:SpotLib.Item.CodeTechnology
+  isSpec: "True"
+  fullName: SpotLib.Item.CodeTechnology
+  nameWithType: Item.CodeTechnology
+- uid: SpotLib.Item.CodeType
+  name: CodeType
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeType
+  commentId: P:SpotLib.Item.CodeType
+  fullName: SpotLib.Item.CodeType
+  nameWithType: Item.CodeType
+- uid: SpotLib.Item.CodeType*
+  name: CodeType
+  href: api/SpotLib.Item.html#SpotLib_Item_CodeType_
+  commentId: Overload:SpotLib.Item.CodeType
+  isSpec: "True"
+  fullName: SpotLib.Item.CodeType
+  nameWithType: Item.CodeType
+- uid: SpotLib.Item.Equals(SpotLib.Item)
+  name: Equals(Item)
+  href: api/SpotLib.Item.html#SpotLib_Item_Equals_SpotLib_Item_
+  commentId: M:SpotLib.Item.Equals(SpotLib.Item)
+  fullName: SpotLib.Item.Equals(SpotLib.Item)
+  nameWithType: Item.Equals(Item)
+- uid: SpotLib.Item.Equals*
+  name: Equals
+  href: api/SpotLib.Item.html#SpotLib_Item_Equals_
+  commentId: Overload:SpotLib.Item.Equals
+  isSpec: "True"
+  fullName: SpotLib.Item.Equals
+  nameWithType: Item.Equals
+- uid: SpotLib.Item.ExtendedData
+  name: ExtendedData
+  href: api/SpotLib.Item.html#SpotLib_Item_ExtendedData
+  commentId: P:SpotLib.Item.ExtendedData
+  fullName: SpotLib.Item.ExtendedData
+  nameWithType: Item.ExtendedData
+- uid: SpotLib.Item.ExtendedData*
+  name: ExtendedData
+  href: api/SpotLib.Item.html#SpotLib_Item_ExtendedData_
+  commentId: Overload:SpotLib.Item.ExtendedData
+  isSpec: "True"
+  fullName: SpotLib.Item.ExtendedData
+  nameWithType: Item.ExtendedData
+- uid: SpotLib.Item.GetHashCode
+  name: GetHashCode()
+  href: api/SpotLib.Item.html#SpotLib_Item_GetHashCode
+  commentId: M:SpotLib.Item.GetHashCode
+  fullName: SpotLib.Item.GetHashCode()
+  nameWithType: Item.GetHashCode()
+- uid: SpotLib.Item.GetHashCode*
+  name: GetHashCode
+  href: api/SpotLib.Item.html#SpotLib_Item_GetHashCode_
+  commentId: Overload:SpotLib.Item.GetHashCode
+  isSpec: "True"
+  fullName: SpotLib.Item.GetHashCode
+  nameWithType: Item.GetHashCode
+- uid: SpotLib.ItemCodeProtocol
+  name: ItemCodeProtocol
+  href: api/SpotLib.ItemCodeProtocol.html
+  commentId: T:SpotLib.ItemCodeProtocol
+  fullName: SpotLib.ItemCodeProtocol
+  nameWithType: ItemCodeProtocol
+- uid: SpotLib.ItemCodeProtocol.AltBeacon
+  name: AltBeacon
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_AltBeacon
+  commentId: F:SpotLib.ItemCodeProtocol.AltBeacon
+  fullName: SpotLib.ItemCodeProtocol.AltBeacon
+  nameWithType: ItemCodeProtocol.AltBeacon
+- uid: SpotLib.ItemCodeProtocol.Eddystone
+  name: Eddystone
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_Eddystone
+  commentId: F:SpotLib.ItemCodeProtocol.Eddystone
+  fullName: SpotLib.ItemCodeProtocol.Eddystone
+  nameWithType: ItemCodeProtocol.Eddystone
+- uid: SpotLib.ItemCodeProtocol.EPCGen2
+  name: EPCGen2
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_EPCGen2
+  commentId: F:SpotLib.ItemCodeProtocol.EPCGen2
+  fullName: SpotLib.ItemCodeProtocol.EPCGen2
+  nameWithType: ItemCodeProtocol.EPCGen2
+- uid: SpotLib.ItemCodeProtocol.IBeacon
+  name: IBeacon
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_IBeacon
+  commentId: F:SpotLib.ItemCodeProtocol.IBeacon
+  fullName: SpotLib.ItemCodeProtocol.IBeacon
+  nameWithType: ItemCodeProtocol.IBeacon
+- uid: SpotLib.ItemCodeProtocol.NanoBle
+  name: NanoBle
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_NanoBle
+  commentId: F:SpotLib.ItemCodeProtocol.NanoBle
+  fullName: SpotLib.ItemCodeProtocol.NanoBle
+  nameWithType: ItemCodeProtocol.NanoBle
+- uid: SpotLib.ItemCodeProtocol.NFC
+  name: NFC
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_NFC
+  commentId: F:SpotLib.ItemCodeProtocol.NFC
+  fullName: SpotLib.ItemCodeProtocol.NFC
+  nameWithType: ItemCodeProtocol.NFC
+- uid: SpotLib.ItemCodeProtocol.UniWear
+  name: UniWear
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_UniWear
+  commentId: F:SpotLib.ItemCodeProtocol.UniWear
+  fullName: SpotLib.ItemCodeProtocol.UniWear
+  nameWithType: ItemCodeProtocol.UniWear
+- uid: SpotLib.ItemCodeProtocol.Unknown
+  name: Unknown
+  href: api/SpotLib.ItemCodeProtocol.html#SpotLib_ItemCodeProtocol_Unknown
+  commentId: F:SpotLib.ItemCodeProtocol.Unknown
+  fullName: SpotLib.ItemCodeProtocol.Unknown
+  nameWithType: ItemCodeProtocol.Unknown
+- uid: SpotLib.ItemCodeTechnology
+  name: ItemCodeTechnology
+  href: api/SpotLib.ItemCodeTechnology.html
+  commentId: T:SpotLib.ItemCodeTechnology
+  fullName: SpotLib.ItemCodeTechnology
+  nameWithType: ItemCodeTechnology
+- uid: SpotLib.ItemCodeTechnology.Bluetooth
+  name: Bluetooth
+  href: api/SpotLib.ItemCodeTechnology.html#SpotLib_ItemCodeTechnology_Bluetooth
+  commentId: F:SpotLib.ItemCodeTechnology.Bluetooth
+  fullName: SpotLib.ItemCodeTechnology.Bluetooth
+  nameWithType: ItemCodeTechnology.Bluetooth
+- uid: SpotLib.ItemCodeTechnology.RFID
+  name: RFID
+  href: api/SpotLib.ItemCodeTechnology.html#SpotLib_ItemCodeTechnology_RFID
+  commentId: F:SpotLib.ItemCodeTechnology.RFID
+  fullName: SpotLib.ItemCodeTechnology.RFID
+  nameWithType: ItemCodeTechnology.RFID
+- uid: SpotLib.ItemCodeTechnology.Unknown
+  name: Unknown
+  href: api/SpotLib.ItemCodeTechnology.html#SpotLib_ItemCodeTechnology_Unknown
+  commentId: F:SpotLib.ItemCodeTechnology.Unknown
+  fullName: SpotLib.ItemCodeTechnology.Unknown
+  nameWithType: ItemCodeTechnology.Unknown
+- uid: SpotLib.ItemCodeType
+  name: ItemCodeType
+  href: api/SpotLib.ItemCodeType.html
+  commentId: T:SpotLib.ItemCodeType
+  fullName: SpotLib.ItemCodeType
+  nameWithType: ItemCodeType
+- uid: SpotLib.ItemCodeType.Microspot
+  name: Microspot
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Microspot
+  commentId: F:SpotLib.ItemCodeType.Microspot
+  fullName: SpotLib.ItemCodeType.Microspot
+  nameWithType: ItemCodeType.Microspot
+- uid: SpotLib.ItemCodeType.Relay
+  name: Relay
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Relay
+  commentId: F:SpotLib.ItemCodeType.Relay
+  fullName: SpotLib.ItemCodeType.Relay
+  nameWithType: ItemCodeType.Relay
+- uid: SpotLib.ItemCodeType.Smartspot
+  name: Smartspot
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Smartspot
+  commentId: F:SpotLib.ItemCodeType.Smartspot
+  fullName: SpotLib.ItemCodeType.Smartspot
+  nameWithType: ItemCodeType.Smartspot
+- uid: SpotLib.ItemCodeType.Smarttag
+  name: Smarttag
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Smarttag
+  commentId: F:SpotLib.ItemCodeType.Smarttag
+  fullName: SpotLib.ItemCodeType.Smarttag
+  nameWithType: ItemCodeType.Smarttag
+- uid: SpotLib.ItemCodeType.Tag
+  name: Tag
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Tag
+  commentId: F:SpotLib.ItemCodeType.Tag
+  fullName: SpotLib.ItemCodeType.Tag
+  nameWithType: ItemCodeType.Tag
+- uid: SpotLib.ItemCodeType.Unknown
+  name: Unknown
+  href: api/SpotLib.ItemCodeType.html#SpotLib_ItemCodeType_Unknown
+  commentId: F:SpotLib.ItemCodeType.Unknown
+  fullName: SpotLib.ItemCodeType.Unknown
+  nameWithType: ItemCodeType.Unknown
+- uid: SpotLib.ItemEvent
+  name: ItemEvent
+  href: api/SpotLib.ItemEvent.html
+  commentId: T:SpotLib.ItemEvent
+  fullName: SpotLib.ItemEvent
+  nameWithType: ItemEvent
+- uid: SpotLib.ItemEvent.#ctor(System.Int32,SpotLib.ItemEventType,SpotLib.Item,System.UInt32)
+  name: ItemEvent(Int32, ItemEventType, Item, UInt32)
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent__ctor_System_Int32_SpotLib_ItemEventType_SpotLib_Item_System_UInt32_
+  commentId: M:SpotLib.ItemEvent.#ctor(System.Int32,SpotLib.ItemEventType,SpotLib.Item,System.UInt32)
+  fullName: SpotLib.ItemEvent.ItemEvent(System.Int32, SpotLib.ItemEventType, SpotLib.Item, System.UInt32)
+  nameWithType: ItemEvent.ItemEvent(Int32, ItemEventType, Item, UInt32)
+- uid: SpotLib.ItemEvent.#ctor*
+  name: ItemEvent
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent__ctor_
+  commentId: Overload:SpotLib.ItemEvent.#ctor
+  isSpec: "True"
+  fullName: SpotLib.ItemEvent.ItemEvent
+  nameWithType: ItemEvent.ItemEvent
+- uid: SpotLib.ItemEvent.Item
+  name: Item
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_Item
+  commentId: P:SpotLib.ItemEvent.Item
+  fullName: SpotLib.ItemEvent.Item
+  nameWithType: ItemEvent.Item
+- uid: SpotLib.ItemEvent.Item*
+  name: Item
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_Item_
+  commentId: Overload:SpotLib.ItemEvent.Item
+  isSpec: "True"
+  fullName: SpotLib.ItemEvent.Item
+  nameWithType: ItemEvent.Item
+- uid: SpotLib.ItemEvent.PresencesCount
+  name: PresencesCount
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_PresencesCount
+  commentId: P:SpotLib.ItemEvent.PresencesCount
+  fullName: SpotLib.ItemEvent.PresencesCount
+  nameWithType: ItemEvent.PresencesCount
+- uid: SpotLib.ItemEvent.PresencesCount*
+  name: PresencesCount
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_PresencesCount_
+  commentId: Overload:SpotLib.ItemEvent.PresencesCount
+  isSpec: "True"
+  fullName: SpotLib.ItemEvent.PresencesCount
+  nameWithType: ItemEvent.PresencesCount
+- uid: SpotLib.ItemEvent.SpotId
+  name: SpotId
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_SpotId
+  commentId: P:SpotLib.ItemEvent.SpotId
+  fullName: SpotLib.ItemEvent.SpotId
+  nameWithType: ItemEvent.SpotId
+- uid: SpotLib.ItemEvent.SpotId*
+  name: SpotId
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_SpotId_
+  commentId: Overload:SpotLib.ItemEvent.SpotId
+  isSpec: "True"
+  fullName: SpotLib.ItemEvent.SpotId
+  nameWithType: ItemEvent.SpotId
+- uid: SpotLib.ItemEvent.Type
+  name: Type
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_Type
+  commentId: P:SpotLib.ItemEvent.Type
+  fullName: SpotLib.ItemEvent.Type
+  nameWithType: ItemEvent.Type
+- uid: SpotLib.ItemEvent.Type*
+  name: Type
+  href: api/SpotLib.ItemEvent.html#SpotLib_ItemEvent_Type_
+  commentId: Overload:SpotLib.ItemEvent.Type
+  isSpec: "True"
+  fullName: SpotLib.ItemEvent.Type
+  nameWithType: ItemEvent.Type
+- uid: SpotLib.ItemEventType
+  name: ItemEventType
+  href: api/SpotLib.ItemEventType.html
+  commentId: T:SpotLib.ItemEventType
+  fullName: SpotLib.ItemEventType
+  nameWithType: ItemEventType
+- uid: SpotLib.ItemEventType.Update
+  name: Update
+  href: api/SpotLib.ItemEventType.html#SpotLib_ItemEventType_Update
+  commentId: F:SpotLib.ItemEventType.Update
+  fullName: SpotLib.ItemEventType.Update
+  nameWithType: ItemEventType.Update
+- uid: SpotLib.MuxType
+  name: MuxType
+  href: api/SpotLib.MuxType.html
+  commentId: T:SpotLib.MuxType
+  fullName: SpotLib.MuxType
+  nameWithType: MuxType
+- uid: SpotLib.MuxType.Multiplexer16
+  name: Multiplexer16
+  href: api/SpotLib.MuxType.html#SpotLib_MuxType_Multiplexer16
+  commentId: F:SpotLib.MuxType.Multiplexer16
+  fullName: SpotLib.MuxType.Multiplexer16
+  nameWithType: MuxType.Multiplexer16
+- uid: SpotLib.MuxType.Multiplexer25
+  name: Multiplexer25
+  href: api/SpotLib.MuxType.html#SpotLib_MuxType_Multiplexer25
+  commentId: F:SpotLib.MuxType.Multiplexer25
+  fullName: SpotLib.MuxType.Multiplexer25
+  nameWithType: MuxType.Multiplexer25
+- uid: SpotLib.MuxType.Multiplexer6
+  name: Multiplexer6
+  href: api/SpotLib.MuxType.html#SpotLib_MuxType_Multiplexer6
+  commentId: F:SpotLib.MuxType.Multiplexer6
+  fullName: SpotLib.MuxType.Multiplexer6
+  nameWithType: MuxType.Multiplexer6
+- uid: SpotLib.MuxType.Unknown
+  name: Unknown
+  href: api/SpotLib.MuxType.html#SpotLib_MuxType_Unknown
+  commentId: F:SpotLib.MuxType.Unknown
+  fullName: SpotLib.MuxType.Unknown
+  nameWithType: MuxType.Unknown
+- uid: SpotLib.Presence
+  name: Presence
+  href: api/SpotLib.Presence.html
+  commentId: T:SpotLib.Presence
+  fullName: SpotLib.Presence
+  nameWithType: Presence
+- uid: SpotLib.Presence.#ctor
+  name: Presence()
+  href: api/SpotLib.Presence.html#SpotLib_Presence__ctor
+  commentId: M:SpotLib.Presence.#ctor
+  fullName: SpotLib.Presence.Presence()
+  nameWithType: Presence.Presence()
+- uid: SpotLib.Presence.#ctor(SpotLib.Presence)
+  name: Presence(Presence)
+  href: api/SpotLib.Presence.html#SpotLib_Presence__ctor_SpotLib_Presence_
+  commentId: M:SpotLib.Presence.#ctor(SpotLib.Presence)
+  fullName: SpotLib.Presence.Presence(SpotLib.Presence)
+  nameWithType: Presence.Presence(Presence)
+- uid: SpotLib.Presence.#ctor*
+  name: Presence
+  href: api/SpotLib.Presence.html#SpotLib_Presence__ctor_
+  commentId: Overload:SpotLib.Presence.#ctor
+  isSpec: "True"
+  fullName: SpotLib.Presence.Presence
+  nameWithType: Presence.Presence
+- uid: SpotLib.Presence.AntennaNumber
+  name: AntennaNumber
+  href: api/SpotLib.Presence.html#SpotLib_Presence_AntennaNumber
+  commentId: P:SpotLib.Presence.AntennaNumber
+  fullName: SpotLib.Presence.AntennaNumber
+  nameWithType: Presence.AntennaNumber
+- uid: SpotLib.Presence.AntennaNumber*
+  name: AntennaNumber
+  href: api/SpotLib.Presence.html#SpotLib_Presence_AntennaNumber_
+  commentId: Overload:SpotLib.Presence.AntennaNumber
+  isSpec: "True"
+  fullName: SpotLib.Presence.AntennaNumber
+  nameWithType: Presence.AntennaNumber
+- uid: SpotLib.Presence.Copy
+  name: Copy()
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Copy
+  commentId: M:SpotLib.Presence.Copy
+  fullName: SpotLib.Presence.Copy()
+  nameWithType: Presence.Copy()
+- uid: SpotLib.Presence.Copy*
+  name: Copy
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Copy_
+  commentId: Overload:SpotLib.Presence.Copy
+  isSpec: "True"
+  fullName: SpotLib.Presence.Copy
+  nameWithType: Presence.Copy
+- uid: SpotLib.Presence.Equals(SpotLib.Presence)
+  name: Equals(Presence)
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Equals_SpotLib_Presence_
+  commentId: M:SpotLib.Presence.Equals(SpotLib.Presence)
+  fullName: SpotLib.Presence.Equals(SpotLib.Presence)
+  nameWithType: Presence.Equals(Presence)
+- uid: SpotLib.Presence.Equals*
+  name: Equals
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Equals_
+  commentId: Overload:SpotLib.Presence.Equals
+  isSpec: "True"
+  fullName: SpotLib.Presence.Equals
+  nameWithType: Presence.Equals
+- uid: SpotLib.Presence.GetHashCode
+  name: GetHashCode()
+  href: api/SpotLib.Presence.html#SpotLib_Presence_GetHashCode
+  commentId: M:SpotLib.Presence.GetHashCode
+  fullName: SpotLib.Presence.GetHashCode()
+  nameWithType: Presence.GetHashCode()
+- uid: SpotLib.Presence.GetHashCode*
+  name: GetHashCode
+  href: api/SpotLib.Presence.html#SpotLib_Presence_GetHashCode_
+  commentId: Overload:SpotLib.Presence.GetHashCode
+  isSpec: "True"
+  fullName: SpotLib.Presence.GetHashCode
+  nameWithType: Presence.GetHashCode
+- uid: SpotLib.Presence.HoldDelayS
+  name: HoldDelayS
+  href: api/SpotLib.Presence.html#SpotLib_Presence_HoldDelayS
+  commentId: P:SpotLib.Presence.HoldDelayS
+  fullName: SpotLib.Presence.HoldDelayS
+  nameWithType: Presence.HoldDelayS
+- uid: SpotLib.Presence.HoldDelayS*
+  name: HoldDelayS
+  href: api/SpotLib.Presence.html#SpotLib_Presence_HoldDelayS_
+  commentId: Overload:SpotLib.Presence.HoldDelayS
+  isSpec: "True"
+  fullName: SpotLib.Presence.HoldDelayS
+  nameWithType: Presence.HoldDelayS
+- uid: SpotLib.Presence.Item
+  name: Item
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Item
+  commentId: P:SpotLib.Presence.Item
+  fullName: SpotLib.Presence.Item
+  nameWithType: Presence.Item
+- uid: SpotLib.Presence.Item*
+  name: Item
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Item_
+  commentId: Overload:SpotLib.Presence.Item
+  isSpec: "True"
+  fullName: SpotLib.Presence.Item
+  nameWithType: Presence.Item
+- uid: SpotLib.Presence.Proximity
+  name: Proximity
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Proximity
+  commentId: P:SpotLib.Presence.Proximity
+  fullName: SpotLib.Presence.Proximity
+  nameWithType: Presence.Proximity
+- uid: SpotLib.Presence.Proximity*
+  name: Proximity
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Proximity_
+  commentId: Overload:SpotLib.Presence.Proximity
+  isSpec: "True"
+  fullName: SpotLib.Presence.Proximity
+  nameWithType: Presence.Proximity
+- uid: SpotLib.Presence.TimeLast
+  name: TimeLast
+  href: api/SpotLib.Presence.html#SpotLib_Presence_TimeLast
+  commentId: P:SpotLib.Presence.TimeLast
+  fullName: SpotLib.Presence.TimeLast
+  nameWithType: Presence.TimeLast
+- uid: SpotLib.Presence.TimeLast*
+  name: TimeLast
+  href: api/SpotLib.Presence.html#SpotLib_Presence_TimeLast_
+  commentId: Overload:SpotLib.Presence.TimeLast
+  isSpec: "True"
+  fullName: SpotLib.Presence.TimeLast
+  nameWithType: Presence.TimeLast
+- uid: SpotLib.Presence.TimeStarted
+  name: TimeStarted
+  href: api/SpotLib.Presence.html#SpotLib_Presence_TimeStarted
+  commentId: P:SpotLib.Presence.TimeStarted
+  fullName: SpotLib.Presence.TimeStarted
+  nameWithType: Presence.TimeStarted
+- uid: SpotLib.Presence.TimeStarted*
+  name: TimeStarted
+  href: api/SpotLib.Presence.html#SpotLib_Presence_TimeStarted_
+  commentId: Overload:SpotLib.Presence.TimeStarted
+  isSpec: "True"
+  fullName: SpotLib.Presence.TimeStarted
+  nameWithType: Presence.TimeStarted
+- uid: SpotLib.Presence.Type
+  name: Type
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Type
+  commentId: P:SpotLib.Presence.Type
+  fullName: SpotLib.Presence.Type
+  nameWithType: Presence.Type
+- uid: SpotLib.Presence.Type*
+  name: Type
+  href: api/SpotLib.Presence.html#SpotLib_Presence_Type_
+  commentId: Overload:SpotLib.Presence.Type
+  isSpec: "True"
+  fullName: SpotLib.Presence.Type
+  nameWithType: Presence.Type
+- uid: SpotLib.PresenceEvent
+  name: PresenceEvent
+  href: api/SpotLib.PresenceEvent.html
+  commentId: T:SpotLib.PresenceEvent
+  fullName: SpotLib.PresenceEvent
+  nameWithType: PresenceEvent
+- uid: SpotLib.PresenceEvent.#ctor(System.Int32,SpotLib.PresenceEventType,SpotLib.Presence)
+  name: PresenceEvent(Int32, PresenceEventType, Presence)
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent__ctor_System_Int32_SpotLib_PresenceEventType_SpotLib_Presence_
+  commentId: M:SpotLib.PresenceEvent.#ctor(System.Int32,SpotLib.PresenceEventType,SpotLib.Presence)
+  fullName: SpotLib.PresenceEvent.PresenceEvent(System.Int32, SpotLib.PresenceEventType, SpotLib.Presence)
+  nameWithType: PresenceEvent.PresenceEvent(Int32, PresenceEventType, Presence)
+- uid: SpotLib.PresenceEvent.#ctor*
+  name: PresenceEvent
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent__ctor_
+  commentId: Overload:SpotLib.PresenceEvent.#ctor
+  isSpec: "True"
+  fullName: SpotLib.PresenceEvent.PresenceEvent
+  nameWithType: PresenceEvent.PresenceEvent
+- uid: SpotLib.PresenceEvent.Presence
+  name: Presence
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_Presence
+  commentId: P:SpotLib.PresenceEvent.Presence
+  fullName: SpotLib.PresenceEvent.Presence
+  nameWithType: PresenceEvent.Presence
+- uid: SpotLib.PresenceEvent.Presence*
+  name: Presence
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_Presence_
+  commentId: Overload:SpotLib.PresenceEvent.Presence
+  isSpec: "True"
+  fullName: SpotLib.PresenceEvent.Presence
+  nameWithType: PresenceEvent.Presence
+- uid: SpotLib.PresenceEvent.SpotId
+  name: SpotId
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_SpotId
+  commentId: P:SpotLib.PresenceEvent.SpotId
+  fullName: SpotLib.PresenceEvent.SpotId
+  nameWithType: PresenceEvent.SpotId
+- uid: SpotLib.PresenceEvent.SpotId*
+  name: SpotId
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_SpotId_
+  commentId: Overload:SpotLib.PresenceEvent.SpotId
+  isSpec: "True"
+  fullName: SpotLib.PresenceEvent.SpotId
+  nameWithType: PresenceEvent.SpotId
+- uid: SpotLib.PresenceEvent.Type
+  name: Type
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_Type
+  commentId: P:SpotLib.PresenceEvent.Type
+  fullName: SpotLib.PresenceEvent.Type
+  nameWithType: PresenceEvent.Type
+- uid: SpotLib.PresenceEvent.Type*
+  name: Type
+  href: api/SpotLib.PresenceEvent.html#SpotLib_PresenceEvent_Type_
+  commentId: Overload:SpotLib.PresenceEvent.Type
+  isSpec: "True"
+  fullName: SpotLib.PresenceEvent.Type
+  nameWithType: PresenceEvent.Type
+- uid: SpotLib.PresenceEventType
+  name: PresenceEventType
+  href: api/SpotLib.PresenceEventType.html
+  commentId: T:SpotLib.PresenceEventType
+  fullName: SpotLib.PresenceEventType
+  nameWithType: PresenceEventType
+- uid: SpotLib.PresenceEventType.Create
+  name: Create
+  href: api/SpotLib.PresenceEventType.html#SpotLib_PresenceEventType_Create
+  commentId: F:SpotLib.PresenceEventType.Create
+  fullName: SpotLib.PresenceEventType.Create
+  nameWithType: PresenceEventType.Create
+- uid: SpotLib.PresenceEventType.Delete
+  name: Delete
+  href: api/SpotLib.PresenceEventType.html#SpotLib_PresenceEventType_Delete
+  commentId: F:SpotLib.PresenceEventType.Delete
+  fullName: SpotLib.PresenceEventType.Delete
+  nameWithType: PresenceEventType.Delete
+- uid: SpotLib.PresenceEventType.Update
+  name: Update
+  href: api/SpotLib.PresenceEventType.html#SpotLib_PresenceEventType_Update
+  commentId: F:SpotLib.PresenceEventType.Update
+  fullName: SpotLib.PresenceEventType.Update
+  nameWithType: PresenceEventType.Update
+- uid: SpotLib.PresenceType
+  name: PresenceType
+  href: api/SpotLib.PresenceType.html
+  commentId: T:SpotLib.PresenceType
+  fullName: SpotLib.PresenceType
+  nameWithType: PresenceType
+- uid: SpotLib.PresenceType.Antenna
+  name: Antenna
+  href: api/SpotLib.PresenceType.html#SpotLib_PresenceType_Antenna
+  commentId: F:SpotLib.PresenceType.Antenna
+  fullName: SpotLib.PresenceType.Antenna
+  nameWithType: PresenceType.Antenna
+- uid: SpotLib.PresenceType.Spot
+  name: Spot
+  href: api/SpotLib.PresenceType.html#SpotLib_PresenceType_Spot
+  commentId: F:SpotLib.PresenceType.Spot
+  fullName: SpotLib.PresenceType.Spot
+  nameWithType: PresenceType.Spot
+- uid: SpotLib.ProximityType
+  name: ProximityType
+  href: api/SpotLib.ProximityType.html
+  commentId: T:SpotLib.ProximityType
+  fullName: SpotLib.ProximityType
+  nameWithType: ProximityType
+- uid: SpotLib.ProximityType.Far
+  name: Far
+  href: api/SpotLib.ProximityType.html#SpotLib_ProximityType_Far
+  commentId: F:SpotLib.ProximityType.Far
+  fullName: SpotLib.ProximityType.Far
+  nameWithType: ProximityType.Far
+- uid: SpotLib.ProximityType.Immediate
+  name: Immediate
+  href: api/SpotLib.ProximityType.html#SpotLib_ProximityType_Immediate
+  commentId: F:SpotLib.ProximityType.Immediate
+  fullName: SpotLib.ProximityType.Immediate
+  nameWithType: ProximityType.Immediate
+- uid: SpotLib.ProximityType.Near
+  name: Near
+  href: api/SpotLib.ProximityType.html#SpotLib_ProximityType_Near
+  commentId: F:SpotLib.ProximityType.Near
+  fullName: SpotLib.ProximityType.Near
+  nameWithType: ProximityType.Near
+- uid: SpotLib.RawHitEvent
+  name: RawHitEvent
+  href: api/SpotLib.RawHitEvent.html
+  commentId: T:SpotLib.RawHitEvent
+  fullName: SpotLib.RawHitEvent
+  nameWithType: RawHitEvent
+- uid: SpotLib.RawHitEvent.#ctor(System.Int32,SpotLib.Hit)
+  name: RawHitEvent(Int32, Hit)
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent__ctor_System_Int32_SpotLib_Hit_
+  commentId: M:SpotLib.RawHitEvent.#ctor(System.Int32,SpotLib.Hit)
+  fullName: SpotLib.RawHitEvent.RawHitEvent(System.Int32, SpotLib.Hit)
+  nameWithType: RawHitEvent.RawHitEvent(Int32, Hit)
+- uid: SpotLib.RawHitEvent.#ctor*
+  name: RawHitEvent
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent__ctor_
+  commentId: Overload:SpotLib.RawHitEvent.#ctor
+  isSpec: "True"
+  fullName: SpotLib.RawHitEvent.RawHitEvent
+  nameWithType: RawHitEvent.RawHitEvent
+- uid: SpotLib.RawHitEvent.Hit
+  name: Hit
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent_Hit
+  commentId: P:SpotLib.RawHitEvent.Hit
+  fullName: SpotLib.RawHitEvent.Hit
+  nameWithType: RawHitEvent.Hit
+- uid: SpotLib.RawHitEvent.Hit*
+  name: Hit
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent_Hit_
+  commentId: Overload:SpotLib.RawHitEvent.Hit
+  isSpec: "True"
+  fullName: SpotLib.RawHitEvent.Hit
+  nameWithType: RawHitEvent.Hit
+- uid: SpotLib.RawHitEvent.SpotId
+  name: SpotId
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent_SpotId
+  commentId: P:SpotLib.RawHitEvent.SpotId
+  fullName: SpotLib.RawHitEvent.SpotId
+  nameWithType: RawHitEvent.SpotId
+- uid: SpotLib.RawHitEvent.SpotId*
+  name: SpotId
+  href: api/SpotLib.RawHitEvent.html#SpotLib_RawHitEvent_SpotId_
+  commentId: Overload:SpotLib.RawHitEvent.SpotId
+  isSpec: "True"
+  fullName: SpotLib.RawHitEvent.SpotId
+  nameWithType: RawHitEvent.SpotId
+- uid: SpotLib.RfidAntenna
+  name: RfidAntenna
+  href: api/SpotLib.RfidAntenna.html
+  commentId: T:SpotLib.RfidAntenna
+  fullName: SpotLib.RfidAntenna
+  nameWithType: RfidAntenna
+- uid: SpotLib.RfidAntenna.#ctor(System.UInt32,System.UInt32)
+  name: RfidAntenna(UInt32, UInt32)
+  href: api/SpotLib.RfidAntenna.html#SpotLib_RfidAntenna__ctor_System_UInt32_System_UInt32_
+  commentId: M:SpotLib.RfidAntenna.#ctor(System.UInt32,System.UInt32)
+  fullName: SpotLib.RfidAntenna.RfidAntenna(System.UInt32, System.UInt32)
+  nameWithType: RfidAntenna.RfidAntenna(UInt32, UInt32)
+- uid: SpotLib.RfidAntenna.#ctor*
+  name: RfidAntenna
+  href: api/SpotLib.RfidAntenna.html#SpotLib_RfidAntenna__ctor_
+  commentId: Overload:SpotLib.RfidAntenna.#ctor
+  isSpec: "True"
+  fullName: SpotLib.RfidAntenna.RfidAntenna
+  nameWithType: RfidAntenna.RfidAntenna
+- uid: SpotLib.RfidAntenna.Swr
+  name: Swr
+  href: api/SpotLib.RfidAntenna.html#SpotLib_RfidAntenna_Swr
+  commentId: P:SpotLib.RfidAntenna.Swr
+  fullName: SpotLib.RfidAntenna.Swr
+  nameWithType: RfidAntenna.Swr
+- uid: SpotLib.RfidAntenna.Swr*
+  name: Swr
+  href: api/SpotLib.RfidAntenna.html#SpotLib_RfidAntenna_Swr_
+  commentId: Overload:SpotLib.RfidAntenna.Swr
+  isSpec: "True"
+  fullName: SpotLib.RfidAntenna.Swr
+  nameWithType: RfidAntenna.Swr
+- uid: SpotLib.RfidCodeMode
+  name: RfidCodeMode
+  href: api/SpotLib.RfidCodeMode.html
+  commentId: T:SpotLib.RfidCodeMode
+  fullName: SpotLib.RfidCodeMode
+  nameWithType: RfidCodeMode
+- uid: SpotLib.RfidCodeMode.CodeIsEPC
+  name: CodeIsEPC
+  href: api/SpotLib.RfidCodeMode.html#SpotLib_RfidCodeMode_CodeIsEPC
+  commentId: F:SpotLib.RfidCodeMode.CodeIsEPC
+  fullName: SpotLib.RfidCodeMode.CodeIsEPC
+  nameWithType: RfidCodeMode.CodeIsEPC
+- uid: SpotLib.RfidCodeMode.CodeIsEPC_ReadTID
+  name: CodeIsEPC_ReadTID
+  href: api/SpotLib.RfidCodeMode.html#SpotLib_RfidCodeMode_CodeIsEPC_ReadTID
+  commentId: F:SpotLib.RfidCodeMode.CodeIsEPC_ReadTID
+  fullName: SpotLib.RfidCodeMode.CodeIsEPC_ReadTID
+  nameWithType: RfidCodeMode.CodeIsEPC_ReadTID
+- uid: SpotLib.RfidCodeMode.CodeIsTID
+  name: CodeIsTID
+  href: api/SpotLib.RfidCodeMode.html#SpotLib_RfidCodeMode_CodeIsTID
+  commentId: F:SpotLib.RfidCodeMode.CodeIsTID
+  fullName: SpotLib.RfidCodeMode.CodeIsTID
+  nameWithType: RfidCodeMode.CodeIsTID
+- uid: SpotLib.RfidRegionType
+  name: RfidRegionType
+  href: api/SpotLib.RfidRegionType.html
+  commentId: T:SpotLib.RfidRegionType
+  fullName: SpotLib.RfidRegionType
+  nameWithType: RfidRegionType
+- uid: SpotLib.RfidRegionType.China1
+  name: China1
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_China1
+  commentId: F:SpotLib.RfidRegionType.China1
+  fullName: SpotLib.RfidRegionType.China1
+  nameWithType: RfidRegionType.China1
+- uid: SpotLib.RfidRegionType.China2
+  name: China2
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_China2
+  commentId: F:SpotLib.RfidRegionType.China2
+  fullName: SpotLib.RfidRegionType.China2
+  nameWithType: RfidRegionType.China2
+- uid: SpotLib.RfidRegionType.Europe
+  name: Europe
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_Europe
+  commentId: F:SpotLib.RfidRegionType.Europe
+  fullName: SpotLib.RfidRegionType.Europe
+  nameWithType: RfidRegionType.Europe
+- uid: SpotLib.RfidRegionType.Japan
+  name: Japan
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_Japan
+  commentId: F:SpotLib.RfidRegionType.Japan
+  fullName: SpotLib.RfidRegionType.Japan
+  nameWithType: RfidRegionType.Japan
+- uid: SpotLib.RfidRegionType.Korea
+  name: Korea
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_Korea
+  commentId: F:SpotLib.RfidRegionType.Korea
+  fullName: SpotLib.RfidRegionType.Korea
+  nameWithType: RfidRegionType.Korea
+- uid: SpotLib.RfidRegionType.Unknown
+  name: Unknown
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_Unknown
+  commentId: F:SpotLib.RfidRegionType.Unknown
+  fullName: SpotLib.RfidRegionType.Unknown
+  nameWithType: RfidRegionType.Unknown
+- uid: SpotLib.RfidRegionType.USA
+  name: USA
+  href: api/SpotLib.RfidRegionType.html#SpotLib_RfidRegionType_USA
+  commentId: F:SpotLib.RfidRegionType.USA
+  fullName: SpotLib.RfidRegionType.USA
+  nameWithType: RfidRegionType.USA
+- uid: SpotLib.SpotEvent
+  name: SpotEvent
+  href: api/SpotLib.SpotEvent.html
+  commentId: T:SpotLib.SpotEvent
+  fullName: SpotLib.SpotEvent
+  nameWithType: SpotEvent
+- uid: SpotLib.SpotEvent.#ctor(System.Int32,System.Boolean)
+  name: SpotEvent(Int32, Boolean)
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent__ctor_System_Int32_System_Boolean_
+  commentId: M:SpotLib.SpotEvent.#ctor(System.Int32,System.Boolean)
+  fullName: SpotLib.SpotEvent.SpotEvent(System.Int32, System.Boolean)
+  nameWithType: SpotEvent.SpotEvent(Int32, Boolean)
+- uid: SpotLib.SpotEvent.#ctor*
+  name: SpotEvent
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent__ctor_
+  commentId: Overload:SpotLib.SpotEvent.#ctor
+  isSpec: "True"
+  fullName: SpotLib.SpotEvent.SpotEvent
+  nameWithType: SpotEvent.SpotEvent
+- uid: SpotLib.SpotEvent.IsConnected
+  name: IsConnected
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent_IsConnected
+  commentId: P:SpotLib.SpotEvent.IsConnected
+  fullName: SpotLib.SpotEvent.IsConnected
+  nameWithType: SpotEvent.IsConnected
+- uid: SpotLib.SpotEvent.IsConnected*
+  name: IsConnected
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent_IsConnected_
+  commentId: Overload:SpotLib.SpotEvent.IsConnected
+  isSpec: "True"
+  fullName: SpotLib.SpotEvent.IsConnected
+  nameWithType: SpotEvent.IsConnected
+- uid: SpotLib.SpotEvent.SpotId
+  name: SpotId
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent_SpotId
+  commentId: P:SpotLib.SpotEvent.SpotId
+  fullName: SpotLib.SpotEvent.SpotId
+  nameWithType: SpotEvent.SpotId
+- uid: SpotLib.SpotEvent.SpotId*
+  name: SpotId
+  href: api/SpotLib.SpotEvent.html#SpotLib_SpotEvent_SpotId_
+  commentId: Overload:SpotLib.SpotEvent.SpotId
+  isSpec: "True"
+  fullName: SpotLib.SpotEvent.SpotId
+  nameWithType: SpotEvent.SpotId
+- uid: SpotLib.TechnologyType
+  name: TechnologyType
+  href: api/SpotLib.TechnologyType.html
+  commentId: T:SpotLib.TechnologyType
+  fullName: SpotLib.TechnologyType
+  nameWithType: TechnologyType
+- uid: SpotLib.TechnologyType.Bluetooth
+  name: Bluetooth
+  href: api/SpotLib.TechnologyType.html#SpotLib_TechnologyType_Bluetooth
+  commentId: F:SpotLib.TechnologyType.Bluetooth
+  fullName: SpotLib.TechnologyType.Bluetooth
+  nameWithType: TechnologyType.Bluetooth
+- uid: SpotLib.TechnologyType.Rfid
+  name: Rfid
+  href: api/SpotLib.TechnologyType.html#SpotLib_TechnologyType_Rfid
+  commentId: F:SpotLib.TechnologyType.Rfid
+  fullName: SpotLib.TechnologyType.Rfid
+  nameWithType: TechnologyType.Rfid

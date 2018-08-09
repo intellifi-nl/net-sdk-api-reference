@@ -1,0 +1,4794 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class API
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class API
+   ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SpotLib.API">
+  
+  
+  <h1 id="SpotLib_API" data-uid="SpotLib.API" class="text-break">Class API
+  </h1>
+  <div class="markdown level0 summary"><p>Spot Lib API.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">API</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SpotLib.html">SpotLib</a></h6>
+  <h6><strong>Assembly</strong>: SpotLib.dll</h6>
+  <h5 id="SpotLib_API_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class API : IApiEventProducer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SpotLib_API__ctor_" data-uid="SpotLib.API.#ctor*"></a>
+  <h4 id="SpotLib_API__ctor_System_Int32_" data-uid="SpotLib.API.#ctor(System.Int32)">API(Int32)</h4>
+  <div class="markdown level1 summary"><p>Constructor to run the SpotLib library in HTTP Server mode.</p>
+<p>Options in this mode:</p>
+<ol>
+<li>Run in Non-Admin mode and grant permissions to the URL manually:</li>
+</ol>
+<ul>
+<li>Configure Namespace Reservation:
+Add the next URL using a command termimal:
+CMD: netsh http add urlacl url=http://+:8080/api/spots/ user=DOMAIN\user
+Warning: The namespace (DOMAIN\user) in this example could be different.
+More info:</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms733768.aspx">https://msdn.microsoft.com/en-us/library/ms733768.aspx</a></li>
+<li><a href="https://stackoverflow.com/questions/4019466/httplistener-access-denied">https://stackoverflow.com/questions/4019466/httplistener-access-denied</a></li>
+</ul>
+<ol start="2">
+<li>(Not Recommended) Run in Admin mode, so that the application can create a Firewall exeption to allow incoming connections</li>
+</ol>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public API(int listenerPort = 8080)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">listenerPort</span></td>
+        <td><p>TCP port to use for accepting incoming connections.
+Connections on listenerPort should be allowed in Firewall to accept incoming TCP connections.
+Default port: 8080.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API__ctor_" data-uid="SpotLib.API.#ctor*"></a>
+  <h4 id="SpotLib_API__ctor_System_String_System_Int32_" data-uid="SpotLib.API.#ctor(System.String,System.Int32)">API(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Constructor to run the SpotLib library in Telnet/TCP Client mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public API(string serverAddress, int serverPort = 23)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">serverAddress</span></td>
+        <td><p>Fill in the IP address of the SmartSpot to connect with.
+Be sure that the setting &quot;Brain address&quot; of this SmartSpot is set to: telnet://localhost.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">serverPort</span></td>
+        <td><p>The default port is 23. Change this if a port has been specified by setting &quot;Brain address&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SpotLib_API_IsInit_" data-uid="SpotLib.API.IsInit*"></a>
+  <h4 id="SpotLib_API_IsInit" data-uid="SpotLib.API.IsInit">IsInit</h4>
+  <div class="markdown level1 summary"><p>Method to check if the API has been initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SpotLib_API_ChangeIpSettings_" data-uid="SpotLib.API.ChangeIpSettings*"></a>
+  <h4 id="SpotLib_API_ChangeIpSettings_System_Int32_System_Boolean_System_String_System_String_System_String_System_String_System_String_" data-uid="SpotLib.API.ChangeIpSettings(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)">ChangeIpSettings(Int32, Boolean, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Set or Change IP settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ChangeIpSettings(int spotId, bool useDHCP, string ip = &quot;&quot;, string subnet = &quot;&quot;, string gateway = &quot;&quot;, string dnsPrimary = &quot;&quot;, string dnsSecondary = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useDHCP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subnet</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">gateway</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dnsPrimary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dnsSecondary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_ClearPresences_" data-uid="SpotLib.API.ClearPresences*"></a>
+  <h4 id="SpotLib_API_ClearPresences_System_Int32_" data-uid="SpotLib.API.ClearPresences(System.Int32)">ClearPresences(Int32)</h4>
+  <div class="markdown level1 summary"><p>This method clears the presences of the Spot and can be used in combination with method SetAntennaEnabledState(arg: changeDynamically=true).
+The library will use the SenseAndControl feature for this and updates/overwrites the default SenseAndControl scheme once (restart required).
+After the scheme has been set, no futher restars are required when using this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ClearPresences(int spotId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_DeInit_" data-uid="SpotLib.API.DeInit*"></a>
+  <h4 id="SpotLib_API_DeInit" data-uid="SpotLib.API.DeInit">DeInit()</h4>
+  <div class="markdown level1 summary"><p>Deinitialize the API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeInit()</code></pre>
+  </div>
+  
+  
+  <a id="SpotLib_API_Finalize_" data-uid="SpotLib.API.Finalize*"></a>
+  <h4 id="SpotLib_API_Finalize" data-uid="SpotLib.API.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Destructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="SpotLib_API_GetAntennaMaxSWR_" data-uid="SpotLib.API.GetAntennaMaxSWR*"></a>
+  <h4 id="SpotLib_API_GetAntennaMaxSWR_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetAntennaMaxSWR(System.Int32,System.UInt32@)">GetAntennaMaxSWR(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the max antenna SWR value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetAntennaMaxSWR(int spotId, out uint maxSwr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">maxSwr</span></td>
+        <td><p>Max antenna SWR value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetAntennaPresencesEnabledState_" data-uid="SpotLib.API.GetAntennaPresencesEnabledState*"></a>
+  <h4 id="SpotLib_API_GetAntennaPresencesEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetAntennaPresencesEnabledState(System.Int32,System.Boolean@)">GetAntennaPresencesEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Use this method to check the enabled state of antenna presences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetAntennaPresencesEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>State output</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetBluetoothEnabledState_" data-uid="SpotLib.API.GetBluetoothEnabledState*"></a>
+  <h4 id="SpotLib_API_GetBluetoothEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetBluetoothEnabledState(System.Int32,System.Boolean@)">GetBluetoothEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the current Bluetooth receiver enabled state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetBluetoothEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetBluetoothFilterThreshold_" data-uid="SpotLib.API.GetBluetoothFilterThreshold*"></a>
+  <h4 id="SpotLib_API_GetBluetoothFilterThreshold_System_Int32_System_Int32__" data-uid="SpotLib.API.GetBluetoothFilterThreshold(System.Int32,System.Int32@)">GetBluetoothFilterThreshold(Int32, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Get current minimal RSSI threshold filter for Bluetooth receiver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetBluetoothFilterThreshold(int spotId, out int threshold)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>Filter threshold value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetDHCPEnabledState_" data-uid="SpotLib.API.GetDHCPEnabledState*"></a>
+  <h4 id="SpotLib_API_GetDHCPEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetDHCPEnabledState(System.Int32,System.Boolean@)">GetDHCPEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the current state of DHCP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetDHCPEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current DHCP state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetFilterHysteresis_" data-uid="SpotLib.API.GetFilterHysteresis*"></a>
+  <h4 id="SpotLib_API_GetFilterHysteresis_System_Int32_SpotLib_TechnologyType_System_UInt32__" data-uid="SpotLib.API.GetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32@)">GetFilterHysteresis(Int32, TechnologyType, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the filter hysteresis per technology type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetFilterHysteresis(int spotId, TechnologyType type, out uint hysteresisdBm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">hysteresisdBm</span></td>
+        <td><p>Hysteresis band in dBm x 10.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetFilterWindowSize_" data-uid="SpotLib.API.GetFilterWindowSize*"></a>
+  <h4 id="SpotLib_API_GetFilterWindowSize_System_Int32_SpotLib_TechnologyType_System_UInt32__" data-uid="SpotLib.API.GetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32@)">GetFilterWindowSize(Int32, TechnologyType, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the filter window size per technology type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetFilterWindowSize(int spotId, TechnologyType type, out uint windowSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The filter window size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetFirmwareUpdateEnabledState_" data-uid="SpotLib.API.GetFirmwareUpdateEnabledState*"></a>
+  <h4 id="SpotLib_API_GetFirmwareUpdateEnabledState_System_Int32_System_Boolean__System_UInt32__" data-uid="SpotLib.API.GetFirmwareUpdateEnabledState(System.Int32,System.Boolean@,System.UInt32@)">GetFirmwareUpdateEnabledState(Int32, out Boolean, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the current firmware update enabled state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetFirmwareUpdateEnabledState(int spotId, out bool state, out uint intervalSec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Firmware enabled state</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">intervalSec</span></td>
+        <td><p>Firmware update server request interval[sec]</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetFirmwareVersion_" data-uid="SpotLib.API.GetFirmwareVersion*"></a>
+  <h4 id="SpotLib_API_GetFirmwareVersion_System_Int32_System_String__" data-uid="SpotLib.API.GetFirmwareVersion(System.Int32,System.String@)">GetFirmwareVersion(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Check the firmware version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetFirmwareVersion(int spotId, out string version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>Firmware version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetGateway_" data-uid="SpotLib.API.GetGateway*"></a>
+  <h4 id="SpotLib_API_GetGateway_System_Int32_System_String__" data-uid="SpotLib.API.GetGateway(System.Int32,System.String@)">GetGateway(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Get the current gateway address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetGateway(int spotId, out string gateway)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">gateway</span></td>
+        <td><p>Current gateway address</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetHoldTime_" data-uid="SpotLib.API.GetHoldTime*"></a>
+  <h4 id="SpotLib_API_GetHoldTime_System_Int32_System_UInt32__System_Boolean__" data-uid="SpotLib.API.GetHoldTime(System.Int32,System.UInt32@,System.Boolean@)">GetHoldTime(Int32, out UInt32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the hold time of a presence in seconds and the automatic hold time enabled state.
+When automatic hold time is enabled, it will automatically replace the static hold time for a dynamic one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetHoldTime(int spotId, out uint timeSec, out bool autoEnabledState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">timeSec</span></td>
+        <td><p>The holdtime in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoEnabledState</span></td>
+        <td><p>Automatic hold time enabled state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetIpAddress_" data-uid="SpotLib.API.GetIpAddress*"></a>
+  <h4 id="SpotLib_API_GetIpAddress_System_Int32_System_String__" data-uid="SpotLib.API.GetIpAddress(System.Int32,System.String@)">GetIpAddress(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Get the current IP address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetIpAddress(int spotId, out string ipAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ipAddress</span></td>
+        <td><p>Current IP address</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetIpSubnet_" data-uid="SpotLib.API.GetIpSubnet*"></a>
+  <h4 id="SpotLib_API_GetIpSubnet_System_Int32_System_String__" data-uid="SpotLib.API.GetIpSubnet(System.Int32,System.String@)">GetIpSubnet(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Get the current IP subnet address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetIpSubnet(int spotId, out string subnet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subnet</span></td>
+        <td><p>Current subnet address</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetPresences_" data-uid="SpotLib.API.GetPresences*"></a>
+  <h4 id="SpotLib_API_GetPresences_System_Int32_System_Collections_Generic_Dictionary_System_Int32_SpotLib_Presence___" data-uid="SpotLib.API.GetPresences(System.Int32,System.Collections.Generic.Dictionary{System.Int32,SpotLib.Presence}@)">GetPresences(Int32, out Dictionary&lt;Int32, Presence&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get presences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPresences(int spotId, out Dictionary&lt;int, Presence&gt; presences)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="SpotLib.Presence.html">Presence</a>&gt;</td>
+        <td><span class="parametername">presences</span></td>
+        <td><p>Dictionary, key: hash, value: Presence object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_GetPresences_System_Int32_System_Collections_Generic_Dictionary_System_Int32_SpotLib_Presence____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>It is possible that multiple presences of the same item are returned if the antenna presenses option is enabled.
+Presences could be reported per antenna, theoretically there could be [Number of antennas] presenses per item.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetPrimaryDNS_" data-uid="SpotLib.API.GetPrimaryDNS*"></a>
+  <h4 id="SpotLib_API_GetPrimaryDNS_System_Int32_System_String__" data-uid="SpotLib.API.GetPrimaryDNS(System.Int32,System.String@)">GetPrimaryDNS(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Get the current primary DNS address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPrimaryDNS(int spotId, out string dnsAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dnsAddress</span></td>
+        <td><p>Current primary DNS</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetProximityLevel_" data-uid="SpotLib.API.GetProximityLevel*"></a>
+  <h4 id="SpotLib_API_GetProximityLevel_System_Int32_SpotLib_TechnologyType_SpotLib_ProximityType_System_Int32__" data-uid="SpotLib.API.GetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32@)">GetProximityLevel(Int32, TechnologyType, ProximityType, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the proximity level per technology and proximity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetProximityLevel(int spotId, TechnologyType ttype, ProximityType ptype, out int leveldBm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">ttype</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.ProximityType.html">ProximityType</a></td>
+        <td><span class="parametername">ptype</span></td>
+        <td><p>Proximity Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">leveldBm</span></td>
+        <td><p>Proximity level in dBm x 10.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRawHitEventsEnabledState_" data-uid="SpotLib.API.GetRawHitEventsEnabledState*"></a>
+  <h4 id="SpotLib_API_GetRawHitEventsEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetRawHitEventsEnabledState(System.Int32,System.Boolean@)">GetRawHitEventsEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the current state of raw hit events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRawHitEventsEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidAntennaConnectedState_" data-uid="SpotLib.API.GetRfidAntennaConnectedState*"></a>
+  <h4 id="SpotLib_API_GetRfidAntennaConnectedState_System_Int32_System_UInt32_System_Boolean__" data-uid="SpotLib.API.GetRfidAntennaConnectedState(System.Int32,System.UInt32,System.Boolean@)">GetRfidAntennaConnectedState(Int32, UInt32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the connected state for a specific rfid antenna.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidAntennaConnectedState(int spotId, uint number, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Antenna number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API or the Antenna number doesn't exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidAntennaDisableMask_" data-uid="SpotLib.API.GetRfidAntennaDisableMask*"></a>
+  <h4 id="SpotLib_API_GetRfidAntennaDisableMask_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidAntennaDisableMask(System.Int32,System.UInt32@)">GetRfidAntennaDisableMask(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the disabled state of each antenna. This method is a low level alternative for GetRfidAntennaEnabledState</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidAntennaDisableMask(int spotId, out uint mask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">mask</span></td>
+        <td><p>Binary mask. See method SetAntennaDisableMask for explanation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API or the Antenna number doesn't exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidAntennaEnabledState_" data-uid="SpotLib.API.GetRfidAntennaEnabledState*"></a>
+  <h4 id="SpotLib_API_GetRfidAntennaEnabledState_System_Int32_System_UInt32_System_Boolean__" data-uid="SpotLib.API.GetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean@)">GetRfidAntennaEnabledState(Int32, UInt32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the enabled state of a specific RFID antenna.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidAntennaEnabledState(int spotId, uint number, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Rfid Antenna number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The antenna enable state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API or the Antenna number doesn't exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidAntennaList_" data-uid="SpotLib.API.GetRfidAntennaList*"></a>
+  <h4 id="SpotLib_API_GetRfidAntennaList_System_Int32_System_Collections_Generic_List_SpotLib_Antenna___" data-uid="SpotLib.API.GetRfidAntennaList(System.Int32,System.Collections.Generic.List{SpotLib.Antenna}@)">GetRfidAntennaList(Int32, out List&lt;Antenna&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get a list of RFID antennas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidAntennaList(int spotId, out List&lt;Antenna&gt; antennas)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SpotLib.Antenna.html">Antenna</a>&gt;</td>
+        <td><span class="parametername">antennas</span></td>
+        <td><p>Used to output the antenna list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidChannel_" data-uid="SpotLib.API.GetRfidChannel*"></a>
+  <h4 id="SpotLib_API_GetRfidChannel_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidChannel(System.Int32,System.UInt32@)">GetRfidChannel(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Rfid channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidChannel(int spotId, out uint channel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidCodeMode_" data-uid="SpotLib.API.GetRfidCodeMode*"></a>
+  <h4 id="SpotLib_API_GetRfidCodeMode_System_Int32_SpotLib_RfidCodeMode__" data-uid="SpotLib.API.GetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode@)">GetRfidCodeMode(Int32, out RfidCodeMode)</h4>
+  <div class="markdown level1 summary"><p>Get the current Rfid Code Mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidCodeMode(int spotId, out RfidCodeMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.RfidCodeMode.html">RfidCodeMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Rfid Code Mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidContinuesEnabledState_" data-uid="SpotLib.API.GetRfidContinuesEnabledState*"></a>
+  <h4 id="SpotLib_API_GetRfidContinuesEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetRfidContinuesEnabledState(System.Int32,System.Boolean@)">GetRfidContinuesEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Check the state of Rfid continues mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidContinuesEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidEnabledState_" data-uid="SpotLib.API.GetRfidEnabledState*"></a>
+  <h4 id="SpotLib_API_GetRfidEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetRfidEnabledState(System.Int32,System.Boolean@)">GetRfidEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the current Rfid reader enabled state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidFilterThreshold_" data-uid="SpotLib.API.GetRfidFilterThreshold*"></a>
+  <h4 id="SpotLib_API_GetRfidFilterThreshold_System_Int32_System_Int32__" data-uid="SpotLib.API.GetRfidFilterThreshold(System.Int32,System.Int32@)">GetRfidFilterThreshold(Int32, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Get current minimal RSSI threshold filter for Rfid reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidFilterThreshold(int spotId, out int threshold)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>Filter threshold value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidInventoryEnabledState_" data-uid="SpotLib.API.GetRfidInventoryEnabledState*"></a>
+  <h4 id="SpotLib_API_GetRfidInventoryEnabledState_System_Int32_System_Boolean__" data-uid="SpotLib.API.GetRfidInventoryEnabledState(System.Int32,System.Boolean@)">GetRfidInventoryEnabledState(Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the current Rfid reader inventory state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidInventoryEnabledState(int spotId, out bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidMaxQ_" data-uid="SpotLib.API.GetRfidMaxQ*"></a>
+  <h4 id="SpotLib_API_GetRfidMaxQ_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidMaxQ(System.Int32,System.UInt32@)">GetRfidMaxQ(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the max. Q factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidMaxQ(int spotId, out uint qvalue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">qvalue</span></td>
+        <td><p>Max. Q setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_GetRfidMaxQ_System_Int32_System_UInt32___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.API.html#SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32_">SetRfidMinQ(Int32, UInt32)</a></div>
+  </div>
+  
+  
+  <a id="SpotLib_API_GetRfidMinQ_" data-uid="SpotLib.API.GetRfidMinQ*"></a>
+  <h4 id="SpotLib_API_GetRfidMinQ_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidMinQ(System.Int32,System.UInt32@)">GetRfidMinQ(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the min. Q factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidMinQ(int spotId, out uint qvalue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">qvalue</span></td>
+        <td><p>Minimal Q setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_GetRfidMinQ_System_Int32_System_UInt32___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.API.html#SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32_">SetRfidMinQ(Int32, UInt32)</a></div>
+  </div>
+  
+  
+  <a id="SpotLib_API_GetRfidPeriodMs_" data-uid="SpotLib.API.GetRfidPeriodMs*"></a>
+  <h4 id="SpotLib_API_GetRfidPeriodMs_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidPeriodMs(System.Int32,System.UInt32@)">GetRfidPeriodMs(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the time that the Rfid reader will take to scan for presences per antenna before switching to the next one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidPeriodMs(int spotId, out uint timeMs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">timeMs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidPower_" data-uid="SpotLib.API.GetRfidPower*"></a>
+  <h4 id="SpotLib_API_GetRfidPower_System_Int32_System_UInt32__" data-uid="SpotLib.API.GetRfidPower(System.Int32,System.UInt32@)">GetRfidPower(Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Rfid reader power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidPower(int spotId, out uint power)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">power</span></td>
+        <td><p>Rfid power setting output.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetRfidRegion_" data-uid="SpotLib.API.GetRfidRegion*"></a>
+  <h4 id="SpotLib_API_GetRfidRegion_System_Int32_SpotLib_RfidRegionType__" data-uid="SpotLib.API.GetRfidRegion(System.Int32,SpotLib.RfidRegionType@)">GetRfidRegion(Int32, out RfidRegionType)</h4>
+  <div class="markdown level1 summary"><p>This method can be used to get the Region of operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetRfidRegion(int spotId, out RfidRegionType region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.RfidRegionType.html">RfidRegionType</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>Region of operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetSecondaryDNS_" data-uid="SpotLib.API.GetSecondaryDNS*"></a>
+  <h4 id="SpotLib_API_GetSecondaryDNS_System_Int32_System_String__" data-uid="SpotLib.API.GetSecondaryDNS(System.Int32,System.String@)">GetSecondaryDNS(Int32, out String)</h4>
+  <div class="markdown level1 summary"><p>Get the current secondary DNS address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetSecondaryDNS(int spotId, out string dnsAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dnsAddress</span></td>
+        <td><p>Current secondary DNS</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetSpotCount_" data-uid="SpotLib.API.GetSpotCount*"></a>
+  <h4 id="SpotLib_API_GetSpotCount" data-uid="SpotLib.API.GetSpotCount">GetSpotCount()</h4>
+  <div class="markdown level1 summary"><p>Get the total count of Spots (connected and disconnected).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetSpotCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Total Spots</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_GetSpotIDs_" data-uid="SpotLib.API.GetSpotIDs*"></a>
+  <h4 id="SpotLib_API_GetSpotIDs" data-uid="SpotLib.API.GetSpotIDs">GetSpotIDs()</h4>
+  <div class="markdown level1 summary"><p>Get a list that contains all the Spot identifiers (connected, disconnected).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;int&gt; GetSpotIDs()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>List</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_Init_" data-uid="SpotLib.API.Init*"></a>
+  <h4 id="SpotLib_API_Init" data-uid="SpotLib.API.Init">Init()</h4>
+  <div class="markdown level1 summary"><p>This method can be used to initialize the API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when the API is initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_IsConnected_" data-uid="SpotLib.API.IsConnected*"></a>
+  <h4 id="SpotLib_API_IsConnected_System_Int32_" data-uid="SpotLib.API.IsConnected(System.Int32)">IsConnected(Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a specific Spot is connected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected(int spotId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetAntennaMaxSWR_" data-uid="SpotLib.API.SetAntennaMaxSWR*"></a>
+  <h4 id="SpotLib_API_SetAntennaMaxSWR_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetAntennaMaxSWR(System.Int32,System.UInt32)">SetAntennaMaxSWR(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the max Antenna SWR value.
+Is used by the Spot to determine if an antenna is connected by comparing the SWR max with the SWR measurement of the antenna.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetAntennaMaxSWR(int spotId, uint maxSwr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">maxSwr</span></td>
+        <td><p>Max antenna SWR value. Allowed range: 0 - 4000</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetAntennaPresencesEnabledState_" data-uid="SpotLib.API.SetAntennaPresencesEnabledState*"></a>
+  <h4 id="SpotLib_API_SetAntennaPresencesEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetAntennaPresencesEnabledState(System.Int32,System.Boolean)">SetAntennaPresencesEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Use this method to enable or disable antenna presences.
+Antenna presences are used to get presence information per antenna instead of presences on the global 'Spot' level.
+Typical applications:</p>
+<ul>
+<li>Micro zones, storage containers, lockers.</li>
+<li>Create sets/groups of antennas.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetAntennaPresencesEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>New state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetAntennaPresencesEnabledState_System_Int32_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When Enabled, this setting will affect the data bandwidth significantly.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetBluetoothEnabledState_" data-uid="SpotLib.API.SetBluetoothEnabledState*"></a>
+  <h4 id="SpotLib_API_SetBluetoothEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetBluetoothEnabledState(System.Int32,System.Boolean)">SetBluetoothEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable the Bluetooth receiver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetBluetoothEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetBluetoothFilterThreshold_" data-uid="SpotLib.API.SetBluetoothFilterThreshold*"></a>
+  <h4 id="SpotLib_API_SetBluetoothFilterThreshold_System_Int32_System_Int32_" data-uid="SpotLib.API.SetBluetoothFilterThreshold(System.Int32,System.Int32)">SetBluetoothFilterThreshold(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set minimal RSSI threshold filter for Bluetooth receiver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetBluetoothFilterThreshold(int spotId, int threshold)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>Filter threshold value. Allowed range: -300 &gt;= threshold &gt;= -900.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetFilterHysteresis_" data-uid="SpotLib.API.SetFilterHysteresis*"></a>
+  <h4 id="SpotLib_API_SetFilterHysteresis_System_Int32_SpotLib_TechnologyType_System_UInt32_" data-uid="SpotLib.API.SetFilterHysteresis(System.Int32,SpotLib.TechnologyType,System.UInt32)">SetFilterHysteresis(Int32, TechnologyType, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the filter hysteresis per technology type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetFilterHysteresis(int spotId, TechnologyType type, uint hysteresisdBm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">hysteresisdBm</span></td>
+        <td><p>Hysteresis band in dBm x 10. Allowed range: 0-100.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetFilterWindowSize_" data-uid="SpotLib.API.SetFilterWindowSize*"></a>
+  <h4 id="SpotLib_API_SetFilterWindowSize_System_Int32_SpotLib_TechnologyType_System_UInt32_" data-uid="SpotLib.API.SetFilterWindowSize(System.Int32,SpotLib.TechnologyType,System.UInt32)">SetFilterWindowSize(Int32, TechnologyType, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the filter window size per technology type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetFilterWindowSize(int spotId, TechnologyType type, uint windowSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>Filter window. Allowed range: 1-100.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetFirmwareUpdateEnabledState_" data-uid="SpotLib.API.SetFirmwareUpdateEnabledState*"></a>
+  <h4 id="SpotLib_API_SetFirmwareUpdateEnabledState_System_Int32_System_Boolean_System_UInt32_" data-uid="SpotLib.API.SetFirmwareUpdateEnabledState(System.Int32,System.Boolean,System.UInt32)">SetFirmwareUpdateEnabledState(Int32, Boolean, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable firmware update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetFirmwareUpdateEnabledState(int spotId, bool newState, uint intervalSec = 900U)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>Firmware update enabled state</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">intervalSec</span></td>
+        <td><p>Firmware update server request interval[sec]</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetHoldTime_" data-uid="SpotLib.API.SetHoldTime*"></a>
+  <h4 id="SpotLib_API_SetHoldTime_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetHoldTime(System.Int32,System.UInt32)">SetHoldTime(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the hold time of a presence in seconds.
+To work properly, use the next formula: HoldTimeSec &gt;= (connected Antennas + 1) * (RfidPeriodMs / 1000).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetHoldTime(int spotId, uint timeSec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">timeSec</span></td>
+        <td><p>Holdtime in seconds. Allowed range: 1 - 3600.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetHoldTimeAutomaticEnabledState_" data-uid="SpotLib.API.SetHoldTimeAutomaticEnabledState*"></a>
+  <h4 id="SpotLib_API_SetHoldTimeAutomaticEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetHoldTimeAutomaticEnabledState(System.Int32,System.Boolean)">SetHoldTimeAutomaticEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or Disable automatic hold time for presences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetHoldTimeAutomaticEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetProximityLevel_" data-uid="SpotLib.API.SetProximityLevel*"></a>
+  <h4 id="SpotLib_API_SetProximityLevel_System_Int32_SpotLib_TechnologyType_SpotLib_ProximityType_System_Int32_" data-uid="SpotLib.API.SetProximityLevel(System.Int32,SpotLib.TechnologyType,SpotLib.ProximityType,System.Int32)">SetProximityLevel(Int32, TechnologyType, ProximityType, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the proximity level per technology and proximity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetProximityLevel(int spotId, TechnologyType ttype, ProximityType ptype, int leveldBm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.TechnologyType.html">TechnologyType</a></td>
+        <td><span class="parametername">ttype</span></td>
+        <td><p>Technology Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.ProximityType.html">ProximityType</a></td>
+        <td><span class="parametername">ptype</span></td>
+        <td><p>Proximity Type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">leveldBm</span></td>
+        <td><p>Proximity level in dBm x 10. Allowed range: (-300) - (-800).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRawHitEventsEnabledState_" data-uid="SpotLib.API.SetRawHitEventsEnabledState*"></a>
+  <h4 id="SpotLib_API_SetRawHitEventsEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetRawHitEventsEnabledState(System.Int32,System.Boolean)">SetRawHitEventsEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable raw hit events. These raw events are gathered at the lowest event level, before processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRawHitEventsEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>Enable or disable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidAntennaDisableMask_" data-uid="SpotLib.API.SetRfidAntennaDisableMask*"></a>
+  <h4 id="SpotLib_API_SetRfidAntennaDisableMask_System_Int32_System_UInt32_System_Boolean_" data-uid="SpotLib.API.SetRfidAntennaDisableMask(System.Int32,System.UInt32,System.Boolean)">SetRfidAntennaDisableMask(Int32, UInt32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Method can be used to enable or disable rfid antennas. This method is a low level alternative for SetRfidAntennaEnabledState</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidAntennaDisableMask(int spotId, uint mask, bool changeDynamically = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">mask</span></td>
+        <td><p>Binary mask. Each bit represents the antenna state. Bit0 is the disabled state of antenna 1, bit1 = antenna2, etc... If the bit is set to 0: the antenna will be enabled, If 1: the antenna will be disabled.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">changeDynamically</span></td>
+        <td><p>See method SetAntennaEnabledState for explanation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API or the antenna number is out of range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidAntennaEnabledState_" data-uid="SpotLib.API.SetRfidAntennaEnabledState*"></a>
+  <h4 id="SpotLib_API_SetRfidAntennaEnabledState_System_Int32_System_UInt32_System_Boolean_System_Boolean_" data-uid="SpotLib.API.SetRfidAntennaEnabledState(System.Int32,System.UInt32,System.Boolean,System.Boolean)">SetRfidAntennaEnabledState(Int32, UInt32, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable RFID antennas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidAntennaEnabledState(int spotId, uint number, bool newState, bool changeDynamically = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Antenna number. Allowed range: 1-25.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>New state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">changeDynamically</span></td>
+        <td><p>Should this setting be changed statically or dynamically?
+Static change:
+The setting will be saved in the config memory of the Spot.
+Should be used for:
+&gt; Enabling/Disabling the antennas once and use this configuration.
+Advantage:
+&gt; Setting will be remembered after a restart.
+Disadvantage:
+&gt; After a change, a Spot restart is always required.</p>
+<p>Dynamic change:
+The settings are not persisted in the config memory of the Spot, but temporary overridden while in operational mode.
+The library will use the SenseAndControl feature for this and updates/overwrites the default SenseAndControl scheme once (restart required).
+After the scheme has been set, no futher restars are required when changing this setting.
+Should be used for:
+&gt; Continuously selecting (pairs/groups/sets) of antennas for scanning purposes.
+Advantage:
+&gt; Spot restart is not required (exept updating the SenseAndControl scheme once).
+Disadvantage:
+&gt; Changes won't be remembered after a restart (except the SenseAndControl scheme).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API or the antenna number is out of range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidChannel_" data-uid="SpotLib.API.SetRfidChannel*"></a>
+  <h4 id="SpotLib_API_SetRfidChannel_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetRfidChannel(System.Int32,System.UInt32)">SetRfidChannel(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the Rfid channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidChannel(int spotId, uint channel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Channel number. Allowed range: 1-4.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidCodeMode_" data-uid="SpotLib.API.SetRfidCodeMode*"></a>
+  <h4 id="SpotLib_API_SetRfidCodeMode_System_Int32_SpotLib_RfidCodeMode_" data-uid="SpotLib.API.SetRfidCodeMode(System.Int32,SpotLib.RfidCodeMode)">SetRfidCodeMode(Int32, RfidCodeMode)</h4>
+  <div class="markdown level1 summary"><p>Set Rfid Code Mode.
+This setting defines:</p>
+<ul>
+<li>The data for Item Code,</li>
+<li>If the Spot reads Tag TID Memory.
+See RfidCodeMode for more information.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidCodeMode(int spotId, RfidCodeMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.RfidCodeMode.html">RfidCodeMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Rfid Code Mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidContinuesEnabledState_" data-uid="SpotLib.API.SetRfidContinuesEnabledState*"></a>
+  <h4 id="SpotLib_API_SetRfidContinuesEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetRfidContinuesEnabledState(System.Int32,System.Boolean)">SetRfidContinuesEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Method to set the Rfid continues mode.
+In off mode, Rfid continues garantees you that the Rfid reader will stop between switching antennas.
+This prevents that presences are reported to the wrong/previous antenna during the inventory operation.
+Disadvantage:</p>
+<blockquote>
+<p>Each switch operation takes some extra time (100-200ms) to stop, wait and start the Rfid reader.</p>
+</blockquote>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidContinuesEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidEnabledState_" data-uid="SpotLib.API.SetRfidEnabledState*"></a>
+  <h4 id="SpotLib_API_SetRfidEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetRfidEnabledState(System.Int32,System.Boolean)">SetRfidEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable the Rfid reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidFilterThreshold_" data-uid="SpotLib.API.SetRfidFilterThreshold*"></a>
+  <h4 id="SpotLib_API_SetRfidFilterThreshold_System_Int32_System_Int32_" data-uid="SpotLib.API.SetRfidFilterThreshold(System.Int32,System.Int32)">SetRfidFilterThreshold(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set minimal RSSI threshold filter for Rfid reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidFilterThreshold(int spotId, int threshold)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>Filter threshold value. Allowed range: -300 &gt;= threshold &gt;= -900.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidInventoryEnabledState_" data-uid="SpotLib.API.SetRfidInventoryEnabledState*"></a>
+  <h4 id="SpotLib_API_SetRfidInventoryEnabledState_System_Int32_System_Boolean_" data-uid="SpotLib.API.SetRfidInventoryEnabledState(System.Int32,System.Boolean)">SetRfidInventoryEnabledState(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable the Rfid inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidInventoryEnabledState(int spotId, bool newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidInventoryEnabledState_System_Int32_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Rfid should be enabled, see SetRfidEnabledState</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidMaxQ_" data-uid="SpotLib.API.SetRfidMaxQ*"></a>
+  <h4 id="SpotLib_API_SetRfidMaxQ_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetRfidMaxQ(System.Int32,System.UInt32)">SetRfidMaxQ(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the max. Q factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidMaxQ(int spotId, uint qvalue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">qvalue</span></td>
+        <td><p>New max. Q setting. Allowed range: 0-13 and equal than RfidMaxQ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidMaxQ_System_Int32_System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The maximum Q factor determines the maximum number of timeslots that the Rfid reader uses during an inventory/scan.
+At default the maximum Q factor is 13.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidMaxQ_System_Int32_System_UInt32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.API.html#SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32_">SetRfidMinQ(Int32, UInt32)</a></div>
+  </div>
+  
+  
+  <a id="SpotLib_API_SetRfidMinQ_" data-uid="SpotLib.API.SetRfidMinQ*"></a>
+  <h4 id="SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetRfidMinQ(System.Int32,System.UInt32)">SetRfidMinQ(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the min. Q factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidMinQ(int spotId, uint qvalue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">qvalue</span></td>
+        <td><p>New minimal Q setting. Allowed range: 0-13 and equal/lower than RfidMaxQ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The minimum Q factor determines the number of timeslots that the Rfid reader will use at the start of an inventory/scan.
+At default the minimum Q factor is 0. The Rfid reader will autmatically increment the number of timeslots
+during the inventory/scan if necessary, but this incrementation can take some time.
+When the expected number of tags in front of the Rfid reader is high, it could be wise to increment the minimal Q factor.
+The time it takes to scan all the tags could be minimized significantly.</p>
+<p>Formula to calculate the number of timeslots:
+timeslots = 2^Q (i.e: Q=3, 2^3 = 8)</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidMinQ_System_Int32_System_UInt32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.API.html#SpotLib_API_SetRfidMaxQ_System_Int32_System_UInt32_">SetRfidMaxQ(Int32, UInt32)</a></div>
+  </div>
+  
+  
+  <a id="SpotLib_API_SetRfidPeriodMs_" data-uid="SpotLib.API.SetRfidPeriodMs*"></a>
+  <h4 id="SpotLib_API_SetRfidPeriodMs_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetRfidPeriodMs(System.Int32,System.UInt32)">SetRfidPeriodMs(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the time that the Rfid reader will take to scan for presences per antenna, before switching to the next one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidPeriodMs(int spotId, uint timeMs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">timeMs</span></td>
+        <td><p>Time in ms. Allowed range: 50 - 3000ms.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True: Successful, False: Operation failed or Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_SetRfidPeriodMs_System_Int32_System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><ul>
+<li>If the period is less than ~120ms (in combination with RfidContinuesEnabledState = false), the Rfid reader reading performances (i.e. number of reads) could be affected.</li>
+<li>Changing this setting could have consequences for setting HoldTime (Formula: HoldTime &gt;= (connected Antennas + 1) * (RfidPeriodMs / 1000)).</li>
+</ul>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidPower_" data-uid="SpotLib.API.SetRfidPower*"></a>
+  <h4 id="SpotLib_API_SetRfidPower_System_Int32_System_UInt32_" data-uid="SpotLib.API.SetRfidPower(System.Int32,System.UInt32)">SetRfidPower(Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Set the Rfid reader power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidPower(int spotId, uint power)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">power</span></td>
+        <td><p>Rfid power in dBm. Allowed range: 5 - 30 dbm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>False if the Spot is not known by the API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when argument out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SpotLib_API_SetRfidRegion_" data-uid="SpotLib.API.SetRfidRegion*"></a>
+  <h4 id="SpotLib_API_SetRfidRegion_System_Int32_SpotLib_RfidRegionType_" data-uid="SpotLib.API.SetRfidRegion(System.Int32,SpotLib.RfidRegionType)">SetRfidRegion(Int32, RfidRegionType)</h4>
+  <div class="markdown level1 summary"><p>This method can be used to set the Region of operation.
+Frequency, max power level and channel requirements could be different per Region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetRfidRegion(int spotId, RfidRegionType region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">spotId</span></td>
+        <td><p>Spot ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SpotLib.RfidRegionType.html">RfidRegionType</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>Region of operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when API isn't initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="SpotLib_API_Item" data-uid="SpotLib.API.Item">Item</h4>
+  <div class="markdown level1 summary"><p>Item updated events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Item</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_Item_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use ItemEvent in your event handler to retrieve the event data.</p>
+</div>
+  <h5 id="SpotLib_API_Item_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.ItemEvent.html">ItemEvent</a></div>
+  </div>
+  
+  
+  <h4 id="SpotLib_API_Presence" data-uid="SpotLib.API.Presence">Presence</h4>
+  <div class="markdown level1 summary"><p>Presence events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Presence</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_Presence_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use PresenceEvent in your event handler to retrieve the event data.</p>
+</div>
+  <h5 id="SpotLib_API_Presence_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.PresenceEvent.html">PresenceEvent</a></div>
+  </div>
+  
+  
+  <h4 id="SpotLib_API_RawHit" data-uid="SpotLib.API.RawHit">RawHit</h4>
+  <div class="markdown level1 summary"><p>Raw Hit events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler RawHit</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_RawHit_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><ul>
+<li>Use RawHitEvent in your event handler to retrieve the event data.</li>
+<li>To be able to receive hit events, use method SetRawHitEventsEnabledState to enable.</li>
+</ul>
+</div>
+  <h5 id="SpotLib_API_RawHit_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.RawHitEvent.html">RawHitEvent</a></div>
+  </div>
+  
+  
+  <h4 id="SpotLib_API_Spot" data-uid="SpotLib.API.Spot">Spot</h4>
+  <div class="markdown level1 summary"><p>Spot online/offline events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Spot</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SpotLib_API_Spot_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use SpotEvent in your event handler to retrieve the event data.</p>
+</div>
+  <h5 id="SpotLib_API_Spot_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="SpotLib.SpotEvent.html">SpotEvent</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.sideaffix {
+  overflow-y: auto !important;  /* Make sure that the sideaffix is scrollable */
+  bottom: 10px !important; /* Reduce bottom margin */
+}
+
+.sideaffix > #affix {
+  height: unset !important; /* Removing the "100%" height which breaks the expansion of the sideaffix content  */
+}
